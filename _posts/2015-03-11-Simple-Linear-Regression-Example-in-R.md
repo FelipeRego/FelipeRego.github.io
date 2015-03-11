@@ -2,7 +2,6 @@
 layout: post
 title: "Simple Linear Regression - An example using R"
 date: 2015-03-11
-published: false
 status: process
 ---
 
