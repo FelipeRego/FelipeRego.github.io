@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Multiple Regression Analysis in R - First Steps"
+---
+
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
