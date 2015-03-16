@@ -8885,7 +8885,7 @@ You must enable Javascript to view this page properly.
 <p>Note now that this updated model yields a much better R-square measure of <strong>0.7490565</strong>, with all predictor p-values highly significant and improved F-Statistic value (<strong>101.5</strong>). The residuals plot also shows a randomly scattered plot indicating a relatively good fit given the transformations applied due to the non-linearity nature of the data.</p>
 <p>In summary, we’ve seen a few different multiple linear regression models applied to the <strong>Prestige</strong> dataset. We tried an linear approach. We created a correlation matrix to understand how each variable was correlated. Subsequently, we transformed the variables to see the effect in the model. We’ve created three-dimensional plots to visualize the relationship of the variables and how the model was fitting the data in hand.</p>
 <hr />
-<p>In next examples, we’ll explore some non-parametric approaches such as <em>K-Nearest Neighbour</em> and some regularization procedures that will allow a stronger fit and a potentially better interpretation. We’ll also start to dive more into a ** with some <em>Resampling</em> methods such as <em>Cross-validation</em> and <em>Bootstrap</em> and later on we’ll approach some <em>Classification</em> problems.</p>
+<p>In next examples, we’ll explore some non-parametric approaches such as <em>K-Nearest Neighbour</em> and some regularization procedures that will allow a stronger fit and a potentially better interpretation. We’ll also start to dive into some <em>Resampling</em> methods such as <em>Cross-validation</em> and <em>Bootstrap</em> and later on we’ll approach some <em>Classification</em> problems.</p>
 
 
 </div>
