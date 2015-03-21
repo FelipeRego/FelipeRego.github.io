@@ -1,3 +1,5 @@
 name: Felipe Rego - Data Analyst | Insights | Wrangling | Visualisation | Modelling | Statistics | Strategy
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+gems:
+  - jekyll-sitemap
