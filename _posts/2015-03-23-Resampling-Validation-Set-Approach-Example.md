@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Resampling with the Validation Set Approach - An Example in R"
+---
+
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
