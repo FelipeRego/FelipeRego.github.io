@@ -83,7 +83,7 @@ img {
 library(randomForest)
 library(doParallel)
 library(foreach)
-library(caret)**</code></pre>
+library(caret)</code></pre>
 <p>Note that we’ll do some parallel processing to make use of the full power of the 8-core, 24GB RAM machine I’m using.</p>
 <p>I then go on to create my <em>logloss</em> function which will take the actuals and the predictions and in order to avoid the extremes of the log function, the predicted probabilities are replaced with max(min(p,1-10<sup>-15),10</sup>-15) in the function:</p>
 <pre><code># logloss evaluation metric
