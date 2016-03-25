@@ -125,7 +125,7 @@ finalFile[is.na(finalFile)] = 0</code></pre>
 <p>The code chunk above contains the steps to to merge the files together, filter out unwanted data points, melt the final data to a long version, reset the date variable to a data format and finally replace NAs with zeros.</p>
 <p>The final step is to simply save the file in a *.csv format to then load it into Tableau for some cool looking visualisation:</p>
 <pre class="r"><code>write.csv(finalFile, 'WeeklyEarnings2012_2014ByOccupation.csv', row.names=FALSE)</code></pre>
-<p>You can see the product of this data wrangling work in a Tableau interactive dashboard [here](http://feliperego.github.io/blog/2015/04/09/Employee-Average-Weekly-Earnings-Estimate).</p>
+<p>You can see the product of this data wrangling work in a Tableau interactive dashboard [here](blog/2015/04/09/Employee-Average-Weekly-Earnings-Estimate.html).</p>
 <hr />
 <p>In this example we illustrated a few simple yet effective examples of dealing with somewhat unstructured spreadsheet data with R. We saw a few options to reshape and load excel spreadsheet data.</p>
 
