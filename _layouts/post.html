@@ -2,10 +2,17 @@
 layout: default
 ---
 
-<div class="post">
-  {% include twitter.html %}
-  {% include linkedin.html %}
-  {{ content }}
-  {% include twitter.html %}
-  {% include linkedin.html %}
-</div>
+<article class="post">
+  <h1>{{ page.title }}</h1>
+  <h1>{% include twitter.html %} {% include linkedin.html %}</h1>
+
+  <div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
+  
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  {% include disqus.html %}
+</article>
