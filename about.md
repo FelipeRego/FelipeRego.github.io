@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-As a data science partner, I help teams build, manage and enhance their data science and visualisation solutions in a strategically-aligned, commercially-oriented and customer-centred way.
+As an independent data science partner, I help teams build, manage and enhance their data science and visualisation solutions in a strategically-aligned, commercially-oriented and customer-centred way.
 
 With an extensive industry experience as well as a deep, technical analytical expertise, I am often required by marketing, sales, finance, technology and strategy teams to provide support and to deliver robust analytics-driven solutions that are easy to use, undestand and implement.
 
@@ -22,6 +22,9 @@ I specialise in:
 
 ### Analytics Project Management###
 - I provide organisations with a good balance between technical, practical analytical skills as well as business, strategy and project management experience. With a track record of leading and nurturing high-performing analytics teams, organisations rely on me to help them take their analytics' journey to the next level.
+
+
+I bring a distinctive balance between practical analytical knowhow, implementing and deploying technical data science solutions as well as a solid experience translating business problems into data science solutions, managing analytical teams and delivering analytical projects in a variety of settings.
 
 
 # Success stories:
@@ -65,4 +68,4 @@ I specialise in:
 
 ***
 
-Get in touch! I'm available to consult, advise and/or develop advanced data analytics and visualisation solutions with marketing, sales, finance, technology and strategy teams across Australia.
+Get in touch! I'm available to consult, advise and/or develop advanced data analytics and visualisation solutions with marketing, digital, sales, operations, finance, technology and strategy teams across Australia.
