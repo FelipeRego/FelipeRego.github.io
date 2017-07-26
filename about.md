@@ -21,10 +21,7 @@ I specialise in:
 - I partner with teams to implement customer, product or market segmentation models, sales forecast, propensity models, credit risk, recommender systems and many other analytical solutions to optimise business operations, antecipate the future and enhance decision-making.
 
 ### Analytics Project Management###
-- I provide organisations with a good balance between technical, practical analytical skills as well as business, strategy and project management experience. With a track record of leading and nurturing high-performing analytics teams, organisations rely on me to help them take their analytics' journey to the next level.
-
-
-I bring a distinctive balance between practical analytical knowhow, implementing and deploying technical data science solutions as well as a solid experience translating business problems into data science solutions, managing analytical teams and delivering analytical projects in a variety of settings.
+- I bring a distinctive balance between practical analytical knowhow, implementing and deploying technical data science solutions as well as a solid experience translating business problems into data science solutions, managing analytical teams and delivering analytical projects in a variety of settings.
 
 
 # Success stories:
