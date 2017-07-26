@@ -14,6 +14,6 @@ Below is an interactive dashboard I built to showcase [Shiny](http://www.shinyap
 
 Data is based on the *food nutrient database* from the [Food Starndards website](http://www.foodstandards.gov.au/science/monitoringnutrients/ausnut/ausnutdatafiles/Pages/foodnutrient.aspx). The Food Standards is a independent statutory agency established by the Food Standards Australia New Zealand Act 1991 (FSANZ Act).
 
-Note: This is also published via the [shinyapp.io](https://feliperego.shinyapps.io/visualising_food_nutrients_with_interactive_r_dashboard/) website.
+Note: In case you're reading this blog post from your mobile, this vis has also been published via the [shinyapp.io](https://feliperego.shinyapps.io/visualising_food_nutrients_with_interactive_r_dashboard/) website which can make the experience in smaller screens a bit better.
 
 <iframe src="https://feliperego.shinyapps.io/visualising_food_nutrients_with_interactive_r_dashboard/" style="border: none; width: 900px; height: 650px"></iframe>
