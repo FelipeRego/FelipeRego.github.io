@@ -16,7 +16,7 @@ While all of these elements are non-data related, I'd argue they can have as muc
 
 **1. The Right Level of Executive Sponsorship**
 
-[](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/4Elements/4elements_2.jpg)<!-- -->
+[](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/4Elements/4elements_2.jpeg)<!-- -->
 
 If there is one single element that I believe can have great influence in the success of your data analytics project is the level of involvement your manager or project sponsor has in your strategy or project.
 
@@ -32,7 +32,7 @@ A suggestion here is to make sure you constantly communicate with all involved, 
 
 **2. A Clearly Defined Set of Questions**
 
-[](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/4Elements/4elements_3.jpg)<!-- -->
+[](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/4Elements/4elements_3.jpeg)<!-- -->
 
 More often than not, data analytics initiatives start and finish with unclear set of questions it intends to have answers for at the end of its endeavour. Requests for data analytics initiatives, for example, can arise from a set of people who are experiencing a specific customer, product or service issue.
 
@@ -46,7 +46,7 @@ Here, my suggestion is that you work in combination with both your team and all 
 
 **3. The Right Mix of Talent**
 
-[](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/4Elements/4elements_4.jpg)<!-- -->
+[](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/4Elements/4elements_4.jpeg)<!-- -->
 
 In any analytics project, you'll most likely need a mix of both generalist and specialist analytical skills. You'll need as much of the Machine Learning, AI and Statistics gun as of the less technical individual with a deep knowledge of the domain you're operating in.
 
@@ -62,7 +62,7 @@ If you are hiring for a long-term resource to grow in your team or organisation,
 
 **4. The Political Environment**
 
-[](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/4Elements/4elements_5.jpg)<!-- -->
+[](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/4Elements/4elements_5.jpeg)<!-- -->
 
 Culture, power and politics are elements that can affect your data analytics initiative the most. This is because analytical problem-solving doesn't create itself out of thin air (yet). It relies on humans, with all of its beauties and flaws, to get things defined, built, managed, fine-tuned. And people can be heavily influenced by the environment they spend most of their time in.
 
@@ -80,7 +80,7 @@ Lastly, it's important to constantly monitor whether you are getting the right a
 
 ***
 
-[](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/4Elements/4elements_6.jpg)<!-- -->
+[](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/4Elements/4elements_6.jpeg)<!-- -->
 
 Over the years, I've found that these more non-data related elements I mentioned above can have material implications in your data analytics initiatives. Yet, they are often not on the ordinary analytics team's radar. So, for your next analytics engagement, make sure you keep these make-or-break elements in mind as much as your data quality concerns.
 
