@@ -1,7 +1,7 @@
 ---
 title: '4 Elements That Can Make or Break Your Data Analytics Initiative'
 layout: post
-date: 2017-07-26
+date: 2017-08-30
 permalink: /blog/2017/08/30/Four-Elements-Analytics-Initiative
 tags:
   - Analytics
@@ -24,7 +24,7 @@ Where I think it becomes less productive is when executive sponsors start to dem
 
 I have come across projects in which the level of sponsorship turned somewhat unsatisfactory due to a variety of reasons (priorities shifting, poor clarity of expectations, lack of knowledge on how to play the sponsor role downward, too many projects being sponsored, etc.). And when this happens, the chance you've got to get the best out of your project is dramatically affected.
 
-> "The best executive is one who has sense enough to pick good people to do what he wants done, and self-restraint enough to keep from meddling with them while they do it" - Theodore Roosevelt >
+> "The best executive is one who has sense enough to pick good people to do what he wants done, and self-restraint enough to keep from meddling with them while they do it" - Theodore Roosevelt
 
 A suggestion here is to make sure you constantly communicate with all involved, and that you are actually involved and help set the expectations from the beginning with the project team and your executive sponsor. This will allow you to have better influence on how your sponsor sees your project in light of all the other priorities and will help set your analytics initiative's operating rhythm.
 
@@ -36,7 +36,7 @@ In some cases, analytics requests are relatively small in the grand scale of the
 
 I have found that having clearly defined questions from the beginning, can make your analytics initiative a lot more tangible and allows it to be put into the larger perspective of the organisation's strategy. But I have also found that one of the hardest things to get out of project stakeholders is the ability frame questions that are relevant to their issue in a clear, attainable, detailed, time-bound, and complete manner.
 
-> "The wise man doesn't give the right answers, he poses the right questions" - Claude Levi-Strauss >
+> "The wise man doesn't give the right answers, he poses the right questions" - Claude Levi-Strauss
 
 Here, my suggestion is that you work in combination with both your team and all the stakeholders to help them clearly define their problems and questions. Analysts have a good sense of what the data they've got or need should look like and what sort of aggregations and transformations are possible in light of the problem being solved. This can help with necessary drill-downs on some of the more high-level questions you get thrown at from varying stakeholders. Sometimes, having an outside opinion of someone else's problem can help better clarify it for them.
 
@@ -50,7 +50,7 @@ When it comes to talent, you will also need to make an assessment of your curren
 
 When hiring for a data analytics resource for your team, I've found rather helpful to gauge not only the candidate's technical ability (obviously) but also their resilience and willingness to adapt and recover to ever-changing conditions, priorities and strategic direction.
 
-> "Be humble, be hungry. An always be the hardest worker in the room." - The Rock >
+> "Be humble, be hungry. An always be the hardest worker in the room." - The Rock
 
 If you are hiring for a long-term resource to grow in your team or organisation, I'd also suggest focusing less on where that candidate is at the moment (i.e. school she attended, scores she achieved, experience, companies or projects she worked for, etc.) and more at how far she has come or evolved to be what she is today (i.e. what adversities she has been through, how she overcame those, how she spends her time, how does she continuously improve her analytical skills, etc.). To me, these can be powerful indicators of a valuable professional, now and in the future.
 
@@ -66,7 +66,7 @@ My suggestion in dealing with this element is to make sure you do everything you
 
 I'd also suggest clarifying the appropriate amount of formal authority you'll need to deliver on your project objectives. You should assess whether the level of authority proposed - relative to your peers as well as relative to other areas of the business in the same context - is enough to make you succeed.
 
-> "Politics is the art of looking for trouble, finding it everywhere, diagnosing it incorrectly and applying the wrong remedies" - Groucho Marx >
+> "Politics is the art of looking for trouble, finding it everywhere, diagnosing it incorrectly and applying the wrong remedies" - Groucho Marx
 
 Lastly, it's important to constantly monitor whether you are getting the right amount of support you need from your peers and boss to get your project across the line. Particularly, whether you are getting the right amount of exposure from your managers and giving the right amount of exposure to your team. You should aim at delivering upward results (to your managers and stakeholders) as well as getting downward support (for you and for your team).
 
