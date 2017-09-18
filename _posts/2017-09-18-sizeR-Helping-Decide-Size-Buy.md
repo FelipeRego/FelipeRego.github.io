@@ -14,7 +14,7 @@ In this blog post I wanted to build a simple solution to help online shoppers de
 
 Below is an interactive app built trying to solve this problem using [Shiny](http://www.shinyapps.io/) with R.
 
-It is a much simpler version inspired by a really cool solution ZARA US online store uses to help shoopers decide which size are best for them based on their measurements and other shoppers' purchases. For more details on the ZARA US widget, go to the [ZARA](www.zara.com) website.
+It is a much simpler version inspired by a really cool solution ZARA US online store uses to help shoopers decide which size are best for them based on their measurements and other shoppers' purchases. For more details on the ZARA US widget, go to the [ZARA](https://www.zara.com/) website.
 
 In this example, since I didn't have actual shoppers data I created a mock dataset with modelled heights and weights and the associated sizes of each "shopper". It is far from polished and it will not cater well for outliers really high/low heights/weights that may exist in the real world. So if you want to break it, try and put some really crazy heights and weights and nothing will display.
 
