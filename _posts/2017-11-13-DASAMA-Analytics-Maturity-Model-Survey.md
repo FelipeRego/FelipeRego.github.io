@@ -38,4 +38,4 @@ Responses collected through DASAMA are kept confidential and results do not prov
 
 ****
 
-The survey is currently opened but it is not widely and publicly available. If you'd like to participate, feel free to send me an email and I'll be more than happy to send a link to the survey. A complimentary summary report will be made available once reasonable responses have been collected.
+The survey is currently opened but it is not widely and publicly available. If you'd like to participate, feel free to send me an email on felipe@feliperego.com.au and I'll be more than happy to send a link to the survey. A complimentary summary report will be made available once reasonable responses have been collected.
