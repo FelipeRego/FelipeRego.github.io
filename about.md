@@ -6,7 +6,7 @@ permalink: /about/
 
 As an independent data science partner, I help teams build, manage and enhance their data science and visualisation solutions in a strategically-aligned, commercially-oriented and customer-centred way.
 
-With an extensive industry experience as well as a deep, technical analytical expertise, I am often required by marketing, sales, finance, technology and strategy teams to provide support and to deliver robust analytics-driven solutions that are easy to use, undestand and implement.
+With an extensive industry experience as well as a deep, technical analytical expertise, I am often required by marketing, sales, finance, technology and strategy teams to provide support and to deliver robust analytics-driven solutions that are easy to use, understand and implement.
 
 
 I specialise in:
