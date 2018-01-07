@@ -32,7 +32,7 @@ The DASAMA model is developed with clients through both a survey and an in-depth
 
 - **Action-Oriented Storytelling**: This section gauges an organisation's ability to produce, package and present and consume analytical results that are both compelling and action-oriented. It assesses whether questions that have been posed were clearly answered in an unbiased manner as well as whether it allows the business to infer both quantities and percentages.
 
-**DASAMA provides clarity in your analytics strategy**
+**DASAMA simplifies and augments analytics strategy**
 
 ![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/dasamasummary2.png)<!-- -->
 
