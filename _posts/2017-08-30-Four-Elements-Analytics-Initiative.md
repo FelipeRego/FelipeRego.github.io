@@ -9,12 +9,15 @@ tags:
   - Team
   - Project
 ---
+![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/4elements_1.png)<!-- -->
 
 Over the years, I've helped organisations in a variety of sectors improve their performance and reduce inefficiencies through the use of data and analytics. Either as a member of an analytics team or leading a team of analysts, I've come across and worked on projects of varying degrees of complexity and thought I'd share some of the key elements that I believe can have a major influence in your data analytics initiative.
 
 While all of these elements are non-data related, I'd argue they can have as much of an impact on your data analytics initiative as issues relating to data quality, choice of analytical tool, time spent fine-tuning algorithms, etc.
 
 **1. The Right Level of Executive Sponsorship**
+
+![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/4elements_2.png)<!-- -->
 
 If there is one single element that I believe can have great influence in the success of your data analytics project is the level of involvement your manager or project sponsor has in your strategy or project.
 
