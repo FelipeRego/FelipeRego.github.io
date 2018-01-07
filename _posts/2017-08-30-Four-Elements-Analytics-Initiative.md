@@ -78,6 +78,8 @@ I'd also suggest clarifying the appropriate amount of formal authority you'll ne
 
 Lastly, it's important to constantly monitor whether you are getting the right amount of support you need from your peers and boss to get your project across the line. Particularly, whether you are getting the right amount of exposure from your managers and giving the right amount of exposure to your team. You should aim at delivering upward results (to your managers and stakeholders) as well as getting downward support (for you and for your team).
 
+![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/4elements_6.png)<!-- -->
+
 ***
 
 
