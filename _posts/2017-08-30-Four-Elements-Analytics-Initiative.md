@@ -32,6 +32,8 @@ A suggestion here is to make sure you constantly communicate with all involved, 
 
 **2. A Clearly Defined Set of Questions**
 
+![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/4elements_3.png)<!-- -->
+
 More often than not, data analytics initiatives start and finish with unclear set of questions it intends to have answers for at the end of its endeavour. Requests for data analytics initiatives, for example, can arise from a set of people who are experiencing a specific customer, product or service issue.
 
 In some cases, analytics requests are relatively small in the grand scale of the business and often become a small tactical effort relegated to an analyst in the team to "go and figure it out" with hardly any sense of whether that analytical effort can or will result in any appropriate response.
@@ -44,6 +46,7 @@ Here, my suggestion is that you work in combination with both your team and all 
 
 **3. The Right Mix of Talent**
 
+![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/4elements_4.png)<!-- -->
 
 In any analytics project, you'll most likely need a mix of both generalist and specialist analytical skills. You'll need as much of the Machine Learning, AI and Statistics gun as of the less technical individual with a deep knowledge of the domain you're operating in.
 
@@ -58,6 +61,8 @@ When hiring for a data analytics resource for your team, I've found rather helpf
 If you are hiring for a long-term resource to grow in your team or organisation, I'd also suggest focusing less on where that candidate is at the moment (i.e. school she attended, scores she achieved, experience, companies or projects she worked for, etc.) and more at how far she has come or evolved to be what she is today (i.e. what adversities she has been through, how she overcame those, how she spends her time, how does she continuously improve her analytical skills, etc.). To me, these can be powerful indicators of a valuable professional, now and in the future.
 
 **4. The Political Environment**
+
+![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/4elements_5.png)<!-- -->
 
 Culture, power and politics are elements that can affect your data analytics initiative the most. This is because analytical problem-solving doesn't create itself out of thin air (yet). It relies on humans, with all of its beauties and flaws, to get things defined, built, managed, fine-tuned. And people can be heavily influenced by the environment they spend most of their time in.
 
