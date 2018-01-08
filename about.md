@@ -61,6 +61,12 @@ Felipe is also a blogger in predictive analytics, statistical learning and data 
 "I had the pleasure of working with Felipe for almost two years. His skill set and attention to detail was second to none, hence why I would leverage his abilities on a regular basis to support my sales role. Without Felipe’s help and support I feel that I would not have been as successful and with this in mind I would recommend him to any company as he would be a valuable asset."
 ```*  ***-- Sales Executive, Jul. 2013***
 
+
+
+# Organisations I've worked with
+
+![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/clients.png)<!-- -->
+
 ***
 
 I'm available to consult, advise and/or develop advanced data analytics and visualisation solutions with marketing, digital, sales, operations, finance, technology and strategy teams across Australia.
