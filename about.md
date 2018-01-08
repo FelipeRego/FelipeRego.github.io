@@ -64,7 +64,7 @@ Felipe is also a blogger in predictive analytics, statistical learning and data 
 
 
 # Organisations I've worked with
-
+***
 ![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/clients.png)<!-- -->
 
 ***
