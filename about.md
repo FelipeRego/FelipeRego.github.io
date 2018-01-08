@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Felipe
+title: About me
 permalink: /about/
 ---
 
@@ -22,7 +22,7 @@ Felipe is also a blogger in predictive analytics, statistical learning and data 
 ![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/specialties.png)<!-- -->
 
 
-# Success stories:
+# Testimonials
 
 ***
 
@@ -63,4 +63,4 @@ Felipe is also a blogger in predictive analytics, statistical learning and data 
 
 ***
 
-Get in touch! I'm available to consult, advise and/or develop advanced data analytics and visualisation solutions with marketing, digital, sales, operations, finance, technology and strategy teams across Australia.
+I'm available to consult, advise and/or develop advanced data analytics and visualisation solutions with marketing, digital, sales, operations, finance, technology and strategy teams across Australia.
