@@ -1,27 +1,25 @@
 ---
 layout: page
-title: About me
+title: About Me
 permalink: /about/
 ---
 
-As an independent data science partner, I help teams build, manage and enhance their data science and visualisation solutions in a strategically-aligned, commercially-oriented and customer-centred way.
+Felipe is a leading advanced analytics and data science partner, helping teams build, manage and enhance their data science and visualisation solutions in a strategically-aligned, commercially-oriented and customer-centred way.
 
-With an extensive industry experience as well as a deep, technical analytical expertise, I am often required by marketing, sales, finance, technology and strategy teams to provide support and to deliver robust analytics-driven solutions that are easy to use, understand and implement.
+With an extensive industry experience as well as a deep, technical analytical expertise, Felipe is often required by marketing, sales, finance, technology and strategy teams to provide support and to deliver robust analytical solutions that are easy to use, understand and implement. Felipe's unique methodology focuses on a holistic organisational approach to using data and science to improve performance and reduce costs. 
+
+Felipe helps organisations and teams with Data Science and Analytics Strategy, Predictive Analytics and Machine Learning solutions, Data Visualisation and Insights Automation and Analytical Training and Workshops.
+
+Felipe is also an analytics instructor helping disseminate practical, actionable analytics and data visualisation techniques in both classrooms and online settings.
+
+When Felipe is not partnering with clients or helping students, he's an M.Phil. research candidate in Learning Analytics at the University of Sydney making sense of students' digital traces and the role learning analytics dashboards play in influencing learning outcomes.
+
+Felipe is also a blogger in predictive analytics, statistical learning and data visualisation with over 62,000 visitors from more than 180+ countries last year alone. Some of his articles have been ranked #1 in google search and referenced by many sources and leading educational organisations including referrals / mentions from StackOverflow, Udacity, Western Michigan University, UC Santa Barbara, Edinburgh Napier University, among others.
 
 
-I specialise in:
+# Areas of Expertise
 
-### Data Discovery & Exploratory Data Analysis ###  
-- I partner with teams to help identify sources, types and quality of data available in their organsations. I also provide robust exploratory data analyses that help teams identify patterns and generate initial insights for their businesses. 
-
-### Interactive Data Visualisation Dashboards ###    
-- I partner with teams to provide them automated, interactive data visualisation dashboards about their customers, products or services to help monitor and improve performance.
-
-### Predictive Analytics ###    
-- I partner with teams to implement customer, product or market segmentation models, sales forecast, propensity models, credit risk, recommender systems and many other analytical solutions to optimise business operations, antecipate the future and enhance decision-making.
-
-### Analytics Project Management###
-- I bring a distinctive balance between practical analytical knowhow, implementing and deploying technical data science solutions as well as a solid experience translating business problems into data science solutions, managing analytical teams and delivering analytical projects in a variety of settings.
+![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/specialties.png)<!-- -->
 
 
 # Success stories:
