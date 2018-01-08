@@ -17,7 +17,7 @@ When Felipe is not partnering with clients or helping students, he's an M.Phil. 
 Felipe is also a blogger in predictive analytics, statistical learning and data visualisation with over 62,000 visitors from more than 180+ countries last year alone. Some of his articles have been ranked #1 in google search and referenced by many sources and leading educational organisations including referrals / mentions from StackOverflow, Udacity, Western Michigan University, UC Santa Barbara, Edinburgh Napier University, among others.
 
 
-# Areas of Expertise
+# Services
 
 ![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/specialties.png)<!-- -->
 
