@@ -109,7 +109,7 @@ The final step is to simply save the file in a *.csv format to then load it into
 write.csv(finalFile, 'WeeklyEarnings2012_2014ByOccupation.csv', row.names=FALSE)
 ```
 
-You can see the product of this data wrangling work in a Tableau interactive dashboard [here.](http://feliperego.github.io/blog/2015/04/09/Employee-Average-Weekly-Earnings-Estimate/)
+You can see the product of this data wrangling work in a Tableau interactive dashboard [here.](http://feliperego.github.io/blog/2015/04/09/Employee-Average-Weekly-Earnings-Estimate)
 
 
 ***

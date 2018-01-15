@@ -26,7 +26,7 @@ Felipe is also an analytics instructor helping disseminate practical, actionable
 When Felipe is not partnering with clients or helping students, he’s an M.Phil. research candidate in Learning Analytics at the University of Sydney making sense of students’ digital traces and the role learning analytics dashboards play in influencing learning outcomes.
 
 <h3><a href="{{ "/blog/" | absolute_url }}">Writer and blogger</a></h3>
-Felipe is also a blogger in predictive analytics, statistical learning and data visualisation.Last year alone, Felipe had over 62,000 visitors to his blog from more than 180+ countries. Some of his articles have been ranked #1 in google search and referenced by many sources and leading educational organisations including referrals / mentions from StackOverflow, Udacity, Western Michigan University, UC Santa Barbara, Edinburgh Napier University, among others.
+Felipe is also a blogger in predictive analytics, statistical learning and data visualisation. Last year alone, Felipe had over 62,000 visitors to his blog from more than 180+ countries. Some of his articles have been ranked #1 in google search and referenced by many sources and leading educational organisations including referrals / mentions from StackOverflow, Udacity, Western Michigan University, UC Santa Barbara, Edinburgh Napier University, among others.
 
 <!--
 <span class="image left"><img src="{{ "/images/pic05.jpg" | absolute_url }}" alt="" /></span>
