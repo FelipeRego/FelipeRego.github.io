@@ -50,9 +50,10 @@
       				<span class="date">{{page.date | date_to_string}}</span>
       				<h1>{{page.title}}</h1>
       				<p>{{page.excerpt}}</p>
+              {% include read_time.html %}
       			</header>
       			<div class="image main"><img src="{{page.image}}" alt=""></div>
-      			<p>{{content}}</p>
+            <p>{{content}}</p>
             {% include advertisements.html %}
       		</section>
 
