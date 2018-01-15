@@ -1,18 +1,114 @@
----
-layout: default
----
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+  <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+   <script type="text/x-mathjax-config">
+     MathJax.Hub.Config({
+       tex2jax: {
+         inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+         processEscapes: true
+       }
+     });
+   </script>
+   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    {% include head.html %}
+	</head>
+	<body class="is-loading">
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
-  <h1>{% include twitter.html %} {% include linkedin.html %}</h1>
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-  
-  <div class="entry">
-    {{ content }}
-  </div>
+				<!-- Header -->
+        <header id="header">
+          <a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+        </header>
 
-  {% include disqus.html %}
-</article>
+				<!-- Nav -->
+					<nav id="nav">
+
+            {% include nav.html %}
+
+						<ul class="icons">
+              <li><a href="https://linkedin.com/in/{{site.linkedin}}" class="icon fa-linkedin" rel="nofollow"><span class="label">Linkedin</span></a></li>
+              <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+            <!--  <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
+              <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
+              <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li> -->
+						</ul>
+					</nav>
+
+				<!-- Main -->
+				<div id="main">
+          <section class="post">
+    				<header class="major">
+      				<span class="date">{{page.date | date_to_string}}</span>
+      				<h1>{{page.title}}</h1>
+      				<p>{{page.excerpt}}</p>
+      			</header>
+      			<div class="image main"><img src="{{page.image}}" alt=""></div>
+      			<p>{{content}}</p>
+            {% include advertisements.html %}
+      		</section>
+
+<!--          <div class="comments-wrapper">
+          <div id="disqus_thread"></div>
+          <script>
+              /**
+               *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+               *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+               */
+
+              var disqus_config = function () {
+                  this.page.url = '{{ absolute_url }}{{ page.url }}';  /*Replace PAGE_URL with your page's canonical URL variable*/
+                  this.page.identifier = '{{ page.url }}'; /*Replace PAGE_IDENTIFIER with your page's unique identifier variable*/
+              };
+
+              (function() {  /* dont endit below this line */
+                  var d = document, s = d.createElement('script');
+
+                  s.src = 'https://{{ site.disqus_shortname }}.disqus.com/embed.js';
+
+                  s.setAttribute('data-timestamp', +new Date());
+                  (d.head || d.body).appendChild(s);
+              })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+        </div> -->
+        <!-- /.comments-wrapper -->
+
+
+            <!-- Footer -->
+              <footer>
+                <ul class="actions">
+                  <li><a href="{{ "/" | absolute_url }}" class="button">Home</a></li>
+                  <li><a href="{{ "/about/" | absolute_url }}" class="button">About</a></li>
+                  <li><a href="{{ "/services/" | absolute_url }}" class="button">Services</a></li>
+        <!--          <li><a href="{{ "/projects/" | absolute_url }}" class="button">Projects</a></li>
+                  <li><a href="{{ "/clients/" | absolute_url }}" class="button">Clients</a></li>
+        -->
+                  <li><a href="{{ "/testimonials/" | absolute_url }}" class="button">Testimonials</a></li>
+                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">Blog</a></li>
+                </ul>
+              </footer>
+
+					</div>
+
+				<!-- Footer -->
+        {% include foot.html %}
+
+			</div>
+
+      <!-- Scripts -->
+  		{% include scripts-main.html %}
+			{% include tracking.html %}
+
+      <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a5754f09a4aa453"></script>
+
+	</body>
+</html>

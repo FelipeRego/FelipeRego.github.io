@@ -1,14 +1,14 @@
 ---
-title: 'Resampling with the Validation Set Approach - An Example in R'
 layout: post
+title:  "Resampling with the Validation Set Approach - An Example in R"
 date: 2015-03-23
+excerpt: "Resampling is a technique that allows us to repeatedly draw samples from a set of observations and to refit a model on each sample in order to obtain additional information."
+image: "/images/resampling1.jpg"
 permalink: /blog/2015/03/23/Resampling-Validation-Set-Approach-Example
-tags:
-  - Resampling
-  - Validation set
-  - Training and Testing
-  - R
 ---
+
+
+
 
 **Resampling** is a technique that allows us to repeatedly draw samples from a set of observations and to refit a model on each sample in order to obtain additional information. Resampling can be useful to estimate the variability of the model fit and to estimate the error rate of the model when applied in new previously unseen data. Resampling can also help in selecting a good level of model flexibility and can also be used to compare the performance (and error rates) of different predictive models.
 

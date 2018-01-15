@@ -1,14 +1,13 @@
 ---
-title: 'Visualising Food Nutrients with Shiny R Dashboard'
 layout: post
+title:  "Visualising Food Nutrients with Shiny R Dashboard"
 date: 2017-07-26
+excerpt: "Below is an interactive dashboard I built to showcase Shiny and R flexdashboards"
+image: "/images/food1.jpg"
 permalink: /blog/2017/07/26/Visualising-Food-Nutrients-with-R
-tags:
-  - shinyapps
-  - Interactive
-  - Visualisation
-  - R
 ---
+
+
 
 Below is an interactive dashboard I built to showcase [Shiny](http://www.shinyapps.io/) and [flexdashboards](http://rmarkdown.rstudio.com/flexdashboard/) in R. These tools are really cool and have a good and flexible approach to creating visualisations and dashboards, using the power and awesomeness of R and markdowns.
 

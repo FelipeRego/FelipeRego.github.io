@@ -1,14 +1,14 @@
 ---
-title: 'Calculating Compound Annual Growth Rates (CAGR) in Python'
 layout: post
+title:  "Calculating Compound Annual Growth Rates (CAGR) in Python"
 date: 2016-08-10
+excerpt: "CAGR measures the mean growth rates of money or units / quantities of something over the years. This is a simple function in Python to calculate CAGR."
+image: "/images/cagr1.jpg"
 permalink: /blog/2016/08/10/CAGR-Function-In-Python
-tags:
-  - Jupyter
-  - Functions
-  - CAGR
-  - Python
 ---
+
+
+
 
 Compound Annual Growth Rates, also known as GAGR, is a popular metric in the financial and business worlds. CAGR measures the mean growth rates of money or units / quantities of something over the years. In finance, it is widely used to calculate investment returns over a period of time (more than one year longer). But while the concepts is mainly used in finance and investment settings, CAGR can also be used to calculate growth related to sales quantities, website user/visitors, etc. Ultimately, it can be a great calculation to understand growth rates of things over a long period of time.
 

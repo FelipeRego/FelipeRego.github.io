@@ -1,14 +1,14 @@
 ---
-title: 'Kaggle Otto Group Challenge - An initial Random Forest approach'
 layout: post
+title:  "Kaggle Otto Group Challenge - An initial Random Forest approach"
 date: 2015-04-01
+excerpt: "Thoughts and a simple approach to a Kaggle competition using Random Forest in Parallel"
+image: "/images/kaggleotto1.jpg"
 permalink: /blog/2015/04/01/Kaggle's-Otto-Group-Challenge-RandomForestExample
-tags:
-  - Kaggle
-  - PData Science
-  - Random Forest
-  - R
 ---
+
+
+
 
 A couple of weeks ago, I decided to join [my 3rd Kaggle competition](https://www.kaggle.com/users/21458/feliperego): the [Otto Group Product Classification Challenge](https://www.kaggle.com/c/otto-group-product-classification-challenge). To me, participating on Kaggle competitions is a great way to learn and apply machine learning with different real-world datasets.
 

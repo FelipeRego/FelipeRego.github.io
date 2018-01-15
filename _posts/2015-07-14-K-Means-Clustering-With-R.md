@@ -1,14 +1,13 @@
 ---
-title: 'Using R for a Simple K-Means Clustering Exercise'
 layout: post
+title:  "Using R for a Simple K-Means Clustering Exercise"
 date: 2015-07-14
+excerpt: "K-Means is a clustering approach that belogs to the class of unsupervised statistical learning methods."
+image: "/images/kmeans1.jpg"
 permalink: /blog/2015/07/14/K-Means-Clustering-With-R
-tags:
-  - Unsupervised Learning
-  - K-means
-  - Clustering
-  - R
 ---
+
+
 
 K-Means is a clustering approach that belogs to the class of unsupervised statistical learning methods. K-Means is very popular in a variety of domains. In biology it is often used to find structure in DNA-related data or subgroups of similar tissue samples to identify cancer cohorts. In marketing, K-Means is often used to create market/customer/product segments.
 

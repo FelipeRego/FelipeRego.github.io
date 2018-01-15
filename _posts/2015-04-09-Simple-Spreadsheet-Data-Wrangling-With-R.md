@@ -1,14 +1,13 @@
 ---
-title: 'Simple Excel Data Wrangling with R'
 layout: post
+title:  "Simple Excel Data Wrangling with R"
 date: 2015-04-09
+excerpt: "Today we are going to deal with some Microsoft Excel spreadsheet data in R."
+image: "/images/excelwrangling1.jpg"
 permalink: /blog/2015/04/09/Simple-Spreadsheet-Data-Wrangling-With-R
-tags:
-  - Data Wrangling
-  - ETL
-  - Excel
-  - R
 ---
+
+
 
 
 Today we are going to deal with some Microsoft Excel spreadsheet data in R. Excel spreadsheets are used everywhere by a variety of companies and employees from diverse areas with varied skill sets. We often have to deal with sparse and messy excel spreadsheets that contain some useful information we want to preferably extract with some code so we can then plug it in R to  create more robust statistical analysis and visualisation.

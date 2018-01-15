@@ -1,15 +1,154 @@
 ---
-layout: default
+layout: null
+title: Felipe Rego | Data Science | Advanced Analytics | Insights | Strategy | feliperego.com.au
+description: Felipe is a leading advanced analytics and data science partner, helping teams build, manage and enhance their data science and visualisation solutions in a strategically-aligned, commercially-oriented and customer-centred way.
+sitemap:
+    priority: 1.0
+    lastmod: 2017-11-02
+    changefreq: weekly
 ---
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
 
-<div class="blurb">
-<p>Hi there, I'm Felipe. I'm an <a href="https://feliperego.github.io/about">advanced analytics and data science partner</a> helping teams build, manage and enhance their data science and visualisation capabilities in a strategically-aligned, commercially-oriented and customer-centred way.</p>
+    <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+   <script type="text/x-mathjax-config">
+     MathJax.Hub.Config({
+       tex2jax: {
+         inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+         processEscapes: true
+       }
+     });
+   </script>
+   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-<p>I'm also an <a href="https://generalassemb.ly/instructors/felipe-rego/7721">analytics instructor</a> helping disseminate practical, actionable analytics and data visualisation techniques in both classrooms and online settings.</p>
+    {% include head.html %}
 
-<p>When I'm not partnering with clients or helping students, I'm an <a href="http://sydney.edu.au/engineering/people/felipe.carbonerego.830.php">M.Phil. research candidate</a> in Learning Analytics at the University of Sydney making sense of students' digital traces and the role learning analytics dashboards play in influencing learning outcomes.</p>
 
-<p>I'm also a <a href="https://feliperego.github.io/blog">blogger</a> in predictive analytics, statistical learning and data visualisation, a husband and a father of two.</p>
+	</head>
+	<body class="is-loading">
 
-<p>I'm available to consult, advise and/or develop advanced data analytics and visualisation solutions with marketing, digital, sales, operations, finance, technology and strategy teams across Australia.<p>
-</div><!-- /.blurb -->
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+            <h1>{{site.title}}</h1>
+						<h2>Data Science &#38; Analytics Partner</h2>
+						<p>Has your organisation been effectively leveraging data and analytics to stay competitive? </p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+
+            {% include nav.html %}
+
+						<ul class="icons">
+              <li><a href="https://linkedin.com/in/{{site.linkedin}}" class="icon fa-linkedin" rel="nofollow"><span class="label">Linkedin</span></a></li>
+              <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+            <!--  <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
+              <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
+              <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li> -->
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<!-- Featured Post -->
+							<article class="post featured">						<h2><a href="{{ "/about/" | absolute_url }}">HELPING TEAMS BUILD, MANAGE AND ENHANCE THEIR DATA SCIENCE CAPABILITIES</a></h2>
+
+								<header class="major">
+
+									Many organisations are finding it harder and harder to find opportunities to grow. Yet, there has never been a better time in history for organisations to find such opportunities. With digitisation and technology applied in all areas of a businesses, organisations - big and small - can now easily tap into their customers data and find behavioural patterns and discover insights for growth.
+									That's why successful organisations are increasingly investing in data science and analytics. That's why analytics have become the most important source of competitive advantage. 
+									<br>
+									<br>
+									<p>
+									<strong>Felipe partners with organisations to help them discover new sources of revenue, optimise their costs, gain new customer, retain existing ones and improve their insights so they can become successful and find growth opportunities.</strong></p>
+						
+								</header>  
+								<a href="{{ "/about/" | absolute_url }}" class="image main"><img src="{{ "/images/pic01.jpg" | absolute_url }}" alt="" /></a>
+	              
+
+								
+
+									Has your organisation been effectively leveraging data and analytics to stay competitive?
+									<br>
+
+									<strong>I would love to hear your story, share my experience and learn about your challenge.</strong>
+									<br>
+									<br>
+									<ul class="actions fit small">
+										<li><a href="mailto:felipe@feliperego.com.au" class="button special big">Say hello</a></li>
+									</ul>
+
+							</article>
+
+						<!-- Posts -->
+<!--							<section class="posts">
+                {% for post in site.posts limit:3 %}
+                {% assign mod3 = forloop.index | modulo: 3 %}
+  								<article>
+  									<header>
+  										<span class="date">{{ post.date | date_to_string }}</span>
+  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
+  									</header>
+  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+  									<p>{{ post.excerpt }}</p>
+  									<ul class="actions">
+  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+  									</ul>
+  								</article>
+                  {% if mod3 == 0 %}
+                  <article>
+  									<header>
+  										<h2><a href="#">Sponsored</h2>
+  									</header>
+
+  								</article>
+                  {% endif %}
+                {% endfor %}
+
+							</section> -->
+
+						<!-- Footer -->
+							<footer>
+                <ul class="actions">
+                  <li><a href="{{ "/" | absolute_url }}" class="button">Home</a></li>
+                  <li><a href="{{ "/about/" | absolute_url }}" class="button">About</a></li>
+                  <li><a href="{{ "/services/" | absolute_url }}" class="button">Services</a></li>
+        <!--          <li><a href="{{ "/projects/" | absolute_url }}" class="button">Projects</a></li>
+                  <li><a href="{{ "/clients/" | absolute_url }}" class="button">Clients</a></li>
+         -->
+                  <li><a href="{{ "/testimonials/" | absolute_url }}" class="button">Testimonials</a></li>
+                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">Blog</a></li>
+                </ul>
+							</footer>
+
+					</div>
+
+				<!-- Footer -->
+        {% include foot.html %}
+
+			</div>
+
+		<!-- Scripts -->
+		{% include scripts-main.html %}
+    {% include tracking.html %}
+
+	</body>
+</html>

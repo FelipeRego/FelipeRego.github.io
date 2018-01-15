@@ -1,14 +1,13 @@
 ---
-title: 'Simple Linear Regression - An example using R'
 layout: post
+title:  "Simple Linear Regression - An example using R"
 date: 2015-03-11
+excerpt: "Linear regression is a type of supervised statistical learning approach that is useful for predicting a quantitative response Y."
+image: "/images/simpleregression1.jpg"
 permalink: /blog/2015/03/11/Simple-Linear-Regression-Example-in-R
-tags:
-  - Linear Regression
-  - Predictive Analytics
-  - Model Fit
-  - R
 ---
+
+
 
 Linear regression is a type of supervised statistical learning approach that is useful for predicting a quantitative response Y. It can take the form of a single regression problem (where you use only a single predictor variable X) or a multiple regression (when more than one predictor is used in the model). It is one of the simplest and most straightforward approaches available and it is a starting point for more advanced modelling and predictive exercises.
 

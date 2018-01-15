@@ -1,22 +1,18 @@
 ---
-title: 'DASAMA - Data Science and Analytics Maturity Assessment model'
 layout: post
+title:  "DASAMA - Data Science and Analytics Maturity Assessment model"
 date: 2017-11-13
+excerpt: "The DASAMA model has been developed to help organisations gain visibility on their data science and analytics journey."
+image: "/images/dasama2.jpg"
 permalink: /blog/2017/11/13/DASAMA-Analytics-Maturity-Model-Survey
-tags:
-  - Data Strategy
-  - Maturity Model
-  - Analytics
-  - Data Science
 ---
+
 
 In today's world, data science and analytics have become an important source of competitive advantage. With large amounts of data being generated at an increasing rate, organisations are seeking best-in-class approaches to building, managing and enhancing their analytics and data science capabilities to increase performance and reduce inefficiencies. 
 
 Over the years, I've seen and worked with many organisations with remarkably different levels of maturity when it came to their ability to build and manage successful data science and analytics capabilities.
 
 That's one of the reasons I've been developing a framework to assess an organisation's ability to build and manage a successful data science capability. I call it the **DA**ta **S**cience and **A**nalytics **M**aturity **A**ssessment (DASAMA) model. 
-
-![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/dasamasummary1.png)<!-- -->
 
 The DASAMA model has been developed to help organisations gain visibility on their data science and analytics journey. More specifically, the DASAMA allows data, technology and analytics leaders as well as analysts and data scientists to gauge their organisation's maturity across important dimensions, providing a framework for organisations to learn where they are in their data science and analytics journey and where they have to concentrate future efforts to take their initiatives to a more mature level.
 
@@ -34,11 +30,11 @@ The DASAMA model is developed with clients through both a survey and an in-depth
 
 **DASAMA simplifies and augments analytics strategy**
 
-![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/dasamasummary2.png)<!-- -->
+<span class="image fit"><img src="{{ "/images/dasama3.jpg" | absolute_url }}" alt="" /></span>
 
 The results of DASAMA can be delivered through both a report and a presentation/workshop. The outcome provides organisations with a clear set of focus areas in their analytics strategy.
 
-The DASAMA model is targeted at data, analytics and technology leaders as well as data, business, technical analysts and data scientists. The format is based on questions asking respondent's level of agreement across a variety of statements on a scale of 1 to 5 where 1 means respondents Strongly Disagree and 5 means respondents Strongly Agree.
+The DASAMA model is targeted at leaders as well as data, business, technical analysts and data scientists. The format is based on questions asking respondent's level of agreement across a variety of statements on a scale of 1 to 5 where 1 means respondents Strongly Disagree and 5 means respondents Strongly Agree.
 
 To date, DASAMA has collected in-depth knowledge from dozens of organisations in Australia across marketing, sales, finance and digital leaders.
 
@@ -46,4 +42,4 @@ Responses collected through DASAMA are kept confidential and results do not prov
 
 ****
 
-If you'd like to participate or learn more about it, get in touch!
+If you'd like to participate or learn more about it, get in touch.

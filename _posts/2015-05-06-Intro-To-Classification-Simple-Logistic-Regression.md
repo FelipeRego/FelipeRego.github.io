@@ -1,14 +1,13 @@
 ---
-title: 'Intro to Classification Problems: Simple Logistic Regression for Churn Modelling'
 layout: post
+title:  "Intro to Classification Problems: Simple Logistic Regression for Churn Modelling"
 date: 2015-05-06
+excerpt: "When we study approaches for predicting qualitative responses, we study classification problems. "
+image: "/images/classification1.jpg"
 permalink: /blog/2015/05/06/Intro-To-Classification-Simple-Logistic-Regression
-tags:
-  - Unsupervised Learning
-  - K-means
-  - Clustering
-  - R
 ---
+
+
 
 
 In many situations in statistical learning, the response variable you want to predict in your dataset is not quantitative (for example, height or weight of individuals). Sometimes, the response variable is instead **qualitative** (Female / Male are an example of a qualitative data).
