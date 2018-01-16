@@ -16,7 +16,7 @@ Felipe is a leading advanced analytics and data science partner, helping teams b
 <h3><a href="{{ "/services/" | absolute_url }}">Industry experience and technical know-how</a></h3>
 With an extensive industry experience as well as a deep, technical analytical expertise, Felipe is often required by marketing, sales, finance, technology and strategy teams to provide support and to deliver robust analytical solutions that are easy to use, understand and implement. Felipe’s unique methodology focuses on a holistic organisational approach to using data and science to improve performance and reduce costs. 
 
-<h3><a href="{{ "/services/" | absolute_url }}">Services with a commercially Focused Mindset</a></h3>
+<h3><a href="{{ "/services/" | absolute_url }}">Analytics Services with a commercially Focused Mindset</a></h3>
 Organisation often struggle to find a clear roadmap for their data science and analytics strategy. Organisations also have a hard time implementing analytical solutions that are actionable and easy-to-use. Felipe helps organisations and teams with Data Science and Analytics Strategy, Predictive Analytics and Machine Learning solutions, Data Visualisation and Insights Automation and Analytical Training and Workshops.
 
 <h3><a href="{{ "/services/" | absolute_url }}">Engaging with audiences for training and workshops</a></h3>
