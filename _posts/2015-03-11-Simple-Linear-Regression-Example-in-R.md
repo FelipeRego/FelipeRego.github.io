@@ -219,7 +219,7 @@ From the model output and the scatterplot we can make some interesting observati
 
 - Another interesting point from the model output is the residual standard error which measures the average amount of income that will deviate from the true regression line for any given point. In our example, any prediction of income on the basis of education will be off by an average of $3,483! A fairly large number.
 
-- Given that the Residual standard error for income is $3483 and the mean income value is $6798, we can assume that the average percentage error for any given point is more than 51%! Again, a pretty large error rate.
+- Given that the Residual standard error for income is <span>$</span>3483 and the mean income value is  <span>$</span>6798, we can assume that the average percentage error for any given point is more than 51%! Again, a pretty large error rate.
 
 To throw some further evidence supporting the lack of model fit, let's plot the residuals against the predicted values:
 
