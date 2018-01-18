@@ -109,7 +109,7 @@ qplot(education, data = newdata, geom="histogram", binwidth=1) +
   geom_vline(xintercept = median(newdata$education), show.legend=TRUE, color="blue")
 ```
 
-![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/LinearRegression_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
+<span class="image fit"><img src="{{ "/images/LinearRegression_files/figure-html/unnamed-chunk-4-1.png" | absolute_url }}" alt="" /></span>
 
 The histogram above allows us to see the pattern in the distribution of average years of education in the dataset. The blue vertical line shows the median value and the red line the average value.
 
@@ -128,7 +128,8 @@ qplot(income, data = newdata, geom="histogram", binwidth=1000) +
   geom_vline(xintercept = median(newdata$income), show.legend=TRUE, color="blue")
 ```
 
-![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/LinearRegression_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+<span class="image fit"><img src="{{ "/images/LinearRegression_files/figure-html/unnamed-chunk-5-1.png" | absolute_url }}" alt="" /></span>
+
 
 The histogram above shows the pattern in the distribution of average income. The blue vertical line shows the median value and the red line the average value.
 
@@ -142,7 +143,8 @@ qplot(education, income, data = newdata, main = "Relationship between Income and
   scale_x_continuous(breaks = c(6:16), minor_breaks = NULL)
 ```
 
-![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/LinearRegression_files/figure-html/qplot-1.png)<!-- -->
+<span class="image fit"><img src="{{ "/images/LinearRegression_files/figure-html/qplot-1.png" | absolute_url }}" alt="" /></span>
+
 
 Each point in the graph represents a profession. Observe how income changes as years of education increases.
 
@@ -200,8 +202,7 @@ qplot(education.c, income, data = newdata, main = "Relationship between Income a
   scale_y_continuous(breaks = c(1000, 2000, 4000, 6000, 8000, 10000, 12000, 14000, 16000, 18000, 20000, 25000), minor_breaks = NULL)
 ```
 
-![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/LinearRegression_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
-
+<span class="image fit"><img src="{{ "/images/LinearRegression_files/figure-html/unnamed-chunk-7-1.png" | absolute_url }}" alt="" /></span>
 
 The result of the model and the graph with the fitted line is shown above.
 
@@ -229,7 +230,7 @@ To throw some further evidence supporting the lack of model fit, let's plot the 
 plot(mod1, pch=16, which=1)
 ```
 
-![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/LinearRegression_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
+<span class="image fit"><img src="{{ "/images/LinearRegression_files/figure-html/unnamed-chunk-8-1.png" | absolute_url }}" alt="" /></span>
 
 The graph above shows the model residuals (which is the average amount that the response will deviate from the true regression line) plotted against the fitted values (the model's predicted value of income).
 
@@ -247,7 +248,7 @@ Below is the plot results for the box-plot transform on the first model created 
 trans = boxcox(mod1)
 ```
 
-![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/LinearRegression_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
+<span class="image fit"><img src="{{ "/images/LinearRegression_files/figure-html/unnamed-chunk-9-1.png" | absolute_url }}" alt="" /></span>
 
 ```r
 trans_df = as.data.frame(trans)
@@ -326,7 +327,7 @@ qplot(income_transf, data = newdata, geom="histogram", binwidth=0.5) +
   geom_vline(xintercept = median(newdata$income_transf), show.legend=TRUE, color="blue")
 ```
 
-![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/LinearRegression_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
+<span class="image fit"><img src="{{ "/images/LinearRegression_files/figure-html/unnamed-chunk-11-1.png" | absolute_url }}" alt="" /></span>
 
 Note on the histogram above how the 'shape' of the income variable changed to a more 'normally' distributed form. We can still see some extreme values that are impacting the model fit.
 
@@ -339,13 +340,13 @@ qplot(education.c, income_transf, data = newdata, main = "Relationship between I
   geom_point()
 ```
 
-![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/LinearRegression_files/figure-html/unnamed-chunk-12-1.png)<!-- -->
+<span class="image fit"><img src="{{ "/images/LinearRegression_files/figure-html/unnamed-chunk-12-1.png" | absolute_url }}" alt="" /></span>
 
 ```r
 plot(mod2, pch=16, which=1)
 ```
 
-![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/LinearRegression_files/figure-html/unnamed-chunk-12-2.png)<!-- -->
+<span class="image fit"><img src="{{ "/images/LinearRegression_files/figure-html/unnamed-chunk-12-2.png" | absolute_url }}" alt="" /></span>
 
 From the output above, we can see that the box-cox transformation provided an unnoticeable improvement in the model results. We had negligeable improvement in the R-squared values. The graphs show how the box-cox transformation on the income variable 'reshapes' the data and gives it a more nomally distributed look. Note also how the second model's residual plot indicates a more random pattern but the presence of points (some new ones) far away from the horizontal line still exist in the data. 
 
@@ -392,7 +393,7 @@ summary(mod3)
 plot(mod3, pch=16, which=1)
 ```
 
-![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/LinearRegression_files/figure-html/unnamed-chunk-13-1.png)<!-- -->
+<span class="image fit"><img src="{{ "/images/LinearRegression_files/figure-html/unnamed-chunk-13-1.png" | absolute_url }}" alt="" /></span>
 
 ```r
 # create 100 x-values based on range of plotted values and plot the quadratic line fit.
@@ -403,7 +404,7 @@ yvals = predict(mod3, newdata=data.frame(education.c=xvals))
 lines(xvals, yvals, col="red", lwd = 3)
 ```
 
-![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/LinearRegression_files/figure-html/unnamed-chunk-13-2.png)<!-- -->
+<span class="image fit"><img src="{{ "/images/LinearRegression_files/figure-html/unnamed-chunk-13-2.png" | absolute_url }}" alt="" /></span>
 
 Note how in this updated model with the transformed predictor variable education.c, the R-squared value improved to 0.37. Our Residual standard error has also declined albeit marginally. The quadratic term *education.c* does not have a very significant p-value but it is still below 0.05. We can also see from the Residuals plot we can se some of the fitted values concentrating on the left side of the graph and some of the points still lying beyond the residual horizontal lines. The last graph shows the model fit (red line). Note how the squared term has drawn a curved shape sort of following the pattern in the data. 
 
