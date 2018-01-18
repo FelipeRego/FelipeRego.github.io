@@ -35,7 +35,7 @@ plot(cars, col='blue', pch=20, cex=2, main="Relationship between Speed and Stopp
 	xlab="Speed in mph", ylab="Stopping Distance in feet")
 ```
 
-![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/lm_output_files/figure-html/unnamed-chunk-2-1.png)<!-- -->
+<span class="image fit"><img src="{{ "/images/lm_output_files/figure-html/unnamed-chunk-2-1.png" | absolute_url }}" alt="" /></span>
 
 From the plot above, we can visualise that there is a somewhat strong relationship between a cars’ speed and the distance required for it to stop (i.e.: the faster the car goes the longer the distance it takes to come to a stop).
 In this exercise, we will:
