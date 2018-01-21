@@ -7,7 +7,7 @@ image: "/images/lminterpret1.jpg"
 permalink: /blog/2015/10/23/Interpreting-Model-Output-In-R
 ---
 
-
+{% include advertisements.html %}
 Linear regression models are a key part of the family of supervised learning models. In particular, linear regression models are a useful tool for predicting a quantitative response. For more details, check an article I’ve written on [Simple Linear Regression - An example using R](https://feliperego.github.io/blog/2015/03/11/Simple-Linear-Regression-Example-in-R). In general, statistical softwares have different ways to show a model output. This quick guide will help the analyst who is starting with linear regression in R to understand what the model output looks like.
 In the example below, we’ll use the ```cars``` dataset found in the ```datasets``` package in R (for more details on the package you can call: ```library(help = "datasets")```.
 
@@ -119,6 +119,7 @@ A side note: In multiple regression settings, the $R^2$ will always increase as 
 
 F-statistic is a good indicator of whether there is a relationship between our predictor and the response variables. The further the F-statistic is from 1 the better it is. However, how much larger the F-statistic needs to be depends on both the number of data points and the number of predictors. Generally, when the number of data points is large, an F-statistic that is only a little bit larger than 1 is already sufficient to reject the null hypothesis (H0 : There is no relationship between speed and distance). The reverse is true as if the number of data points is small, a large F-statistic is required to be able to ascertain that there may be a relationship between predictor and response variables. In our example the F-statistic is **89.5671065** which is relatively larger than 1 given the size of our data.
 
+{% include advertisements.html %}
 ***
 
 Note that the model we ran above was just an example to illustrate how a linear model output looks like in R and how we can start to interpret its components. Obviously the model is not optimised. One way we could start to improve is by transforming our response variable (try running a new model with the response variable log-transformed ```mod2 = lm(formula = log(dist) ~ speed.c, data = cars)``` or a quadratic term and observe the differences encountered). We could also consider bringing in new variables, new transformation of variables and then subsequent variable selection, and comparing between different models. Finally, with a model that is fitting nicely, we could start to run predictive analytics to try to estimate distance required for a random car to stop given its speed.
