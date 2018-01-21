@@ -76,6 +76,8 @@ summary(mod1)
 
 The model above is achieved by using the ```lm()``` function in R and the output is called using the ```summary()``` function on the model.
 
+{% include advertisements.html %}
+
 Below we define and briefly explain each component of the model output:
 
 **Formula Call**
@@ -120,7 +122,6 @@ A side note: In multiple regression settings, the $R^2$ will always increase as 
 
 F-statistic is a good indicator of whether there is a relationship between our predictor and the response variables. The further the F-statistic is from 1 the better it is. However, how much larger the F-statistic needs to be depends on both the number of data points and the number of predictors. Generally, when the number of data points is large, an F-statistic that is only a little bit larger than 1 is already sufficient to reject the null hypothesis (H0 : There is no relationship between speed and distance). The reverse is true as if the number of data points is small, a large F-statistic is required to be able to ascertain that there may be a relationship between predictor and response variables. In our example the F-statistic is **89.5671065** which is relatively larger than 1 given the size of our data.
 
-{% include advertisements.html %}
 ***
 
 Note that the model we ran above was just an example to illustrate how a linear model output looks like in R and how we can start to interpret its components. Obviously the model is not optimised. One way we could start to improve is by transforming our response variable (try running a new model with the response variable log-transformed ```mod2 = lm(formula = log(dist) ~ speed.c, data = cars)``` or a quadratic term and observe the differences encountered). We could also consider bringing in new variables, new transformation of variables and then subsequent variable selection, and comparing between different models. Finally, with a model that is fitting nicely, we could start to run predictive analytics to try to estimate distance required for a random car to stop given its speed.
