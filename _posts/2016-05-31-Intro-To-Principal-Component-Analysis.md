@@ -57,7 +57,7 @@ plot(dta, main="Pairwise Scatterplot of all variables in the mtcars dataset",
      col="blue", cex=0.3, pch=16)
 ```
 
-![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/PCA_files/figure-html/unnamed-chunk-2-1.png)<!-- -->
+<span class="image fit"><img src="{{ "/images/PCA_files/figure-html/unnamed-chunk-2-1.png" | absolute_url }}" alt="" /></span>
 
 By trying to visualise our dataset of cars (with 11 variables) through the pairwise scatterplot method, we end up having to look through more than 50 individual scatterplots! Now imagine having a dataset with a very large number of variables (hundreds) and trying to visualise and make sense of all of this!
 
@@ -183,7 +183,7 @@ Notice that the first two Principal Components explain 84.17% of the variance in
 biplot(PC_res$ind$coord, PC_res$var$coord, scale=0, cex=0.7, main="Biplot for the first two Principal Components", xlab = "First Principal Component (explains ~60%)", ylab="Second Principal Component (explains ~24%)")
 ```
 
-![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/PCA_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+<span class="image fit"><img src="{{ "/images/PCA_files/figure-html/unnamed-chunk-5-1.png" | absolute_url }}" alt="" /></span>
 
 The graph above displays the first two principal components which explain more than 84% of the variance in the cars dataset. The black car names represent the scores for the first two principal components. The red arrows represent the first two principal components loading vectors.
 
@@ -268,7 +268,7 @@ ggplot(data=plot_dta, aes(x=pc, y=unlist(pve), group=1)) +
     ggtitle("Scree Plot for Principal Components and Variance")
 ```
 
-![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/PCA_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
+<span class="image fit"><img src="{{ "/images/PCA_files/figure-html/unnamed-chunk-7-1.png" | absolute_url }}" alt="" /></span>
 
 We can see from the scree plot above that the point at which the proportion of variance explained by each subsequent principal component drops off is from the 3rd principal component. 
 

@@ -85,7 +85,7 @@ plot(dat, main = "% of favourable responses to
      Learning and Privilege", pch =20, cex =2)
 ```
 
-![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/Kmeans_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
+<span class="image fit"><img src="{{ "/images/Kmeans_files/figure-html/unnamed-chunk-3-1.png" | absolute_url }}" alt="" /></span>
 
 With the data subset and the plot above we can see how each department’s score behave across Privilege and Learning compare to each other. In the most simplistic sense, we can apply K-Means clustering to this data set and try to assign each department to a specific number of clusters that are “similar”.
 Let’s use the **kmeans** function from R base stats package:
@@ -101,7 +101,7 @@ plot(dat, col =(km1$cluster +1),
      main="K-Means result with 2 clusters", pch=20, cex=2)
 ```
 
-![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/Kmeans_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
+<span class="image fit"><img src="{{ "/images/Kmeans_files/figure-html/unnamed-chunk-4-1.png" | absolute_url }}" alt="" /></span>
 
 As mentioned before, one of the key decisions to be made when performing K-Means clustering is to decide on the numbers of clusters to use. In practice, there is no easy answer and it’s important to try different ways and numbers of clusters to decide which options is the most useful, applicable or interpretable solution.
 In the plot above, we randomly chose the number of clusters to be 2 for illustration purposes only.
@@ -121,7 +121,7 @@ plot(1:15, wss, type="b", xlab="Number of Clusters",
      pch=20, cex=2)
 ```
 
-![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/Kmeans_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+<span class="image fit"><img src="{{ "/images/Kmeans_files/figure-html/unnamed-chunk-5-1.png" | absolute_url }}" alt="" /></span>
 
 With the Elbow method, the solution criterion value (within groups sum of squares) will tend to decrease substantially with each successive increase in the number of clusters. Simplistically, an optimal number of clusters is identified once a “kink” in the line plot is observed. As you can grasp, identifying the point in which a “kink” exists is not a very objective approach and is very prone to heuristic processes.
 
@@ -172,7 +172,7 @@ plot(dat, col =(km2$cluster +1) ,
      main="K-Means result with 6 clusters", pch=20, cex=2)
 ```
 
-![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/Kmeans_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
+<span class="image fit"><img src="{{ "/images/Kmeans_files/figure-html/unnamed-chunk-7-1.png" | absolute_url }}" alt="" /></span>
 
 From the results above we can see that there is a relatively well defined set of groups of departments that are relatively distinct when it comes to answering favourably around Privileges and Learning in the survey. It is only natural to think the next steps from this sort of output. One could start to devise strategies to understand why certain departments rate these two different measures the way they do and what to do about it. But we will leave this to another exercise.
 
