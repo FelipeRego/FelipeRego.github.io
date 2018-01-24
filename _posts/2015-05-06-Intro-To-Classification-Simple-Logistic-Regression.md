@@ -162,7 +162,7 @@ qplot(number.customer.service.calls, data = tr_dt, geom="histogram", binwidth=1)
   geom_vline(xintercept = median(tr_dt$number.customer.service.calls), show.legend=TRUE, color="blue")
 ```
 
-<span class="image fit"><img src="{{ "/images/IntroToClassification_files/figure-html/unnamed-chunk-3-1.png" | absolute_url }}" alt="" /></span>
+![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/IntroToClassification_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
 
 Accounts from this training data set make an average of 1.5424 calls, with the median value sitting at 1 calls. Note also how the shape of the data is relatively right skewed. 
 
@@ -230,7 +230,7 @@ ggplot(tr_dt, aes(x=number.customer.service.calls, y=churn)) +
   annotate("text", x = 2, y = 0.52, label = "Moment Probability to Churn goes beyond 50%", size=3, col="red")
 ```
 
-<span class="image fit"><img src="{{ "/images/IntroToClassification_files/figure-html/unnamed-chunk-4-1.png" | absolute_url }}" alt="" /></span>
+![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/IntroToClassification_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
 
 Let's look at both the model output and the plot above:
 

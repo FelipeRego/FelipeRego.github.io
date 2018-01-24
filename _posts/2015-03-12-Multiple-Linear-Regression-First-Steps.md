@@ -105,7 +105,7 @@ Our new dataset contains the four variables to be used in our model. It is now e
 plot(newdata, pch=16, col="blue", main="Matrix Scatterplot of Income, Education, Women and Prestige")
 ```
 
-<span class="image fit"><img src="{{ "/images/MultipleLinearRegression_files/figure-html/unnamed-chunk-4-1.png" | absolute_url }}" alt="" /></span>
+![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/MultipleLinearRegression_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
 
 The matrix plot above allows us to vizualise the relationship among all variables in one single image. For example, we can see how income and education are related (see first column, second row top to bottom graph).
 
@@ -209,8 +209,7 @@ newdatacor = cor(newdata[1:4])
 corrplot(newdatacor, method = "number")
 ```
 
-<span class="image fit"><img src="{{ "/images/MultipleLinearRegression_files/figure-html/unnamed-chunk-6-1.png" | absolute_url }}" alt="" /></span>
-
+![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/MultipleLinearRegression_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
 
 The correlation matrix shown above highlights the situation we encoutered with the model output. Notice that the correlation between education and prestige is very high at **0.85**. This reveals each profession's level of education is strongly aligned to each profession's level of prestige. So in essence, education's high p-value indicates that women and prestige are related to income, but there is no evidence that education is associated with income, at least not when these other two predictors are also considered in the model.
 
@@ -257,7 +256,7 @@ Let's plot this last model's residuals:
 plot(mod2, pch=16, which=1)
 ```
 
-<span class="image fit"><img src="{{ "/images/MultipleLinearRegression_files/figure-html/unnamed-chunk-8-1.png" | absolute_url }}" alt="" /></span>
+![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/MultipleLinearRegression_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
 
 Note how the residuals plot of this last model shows some important points still lying far away from the middle area of the graph. 
 

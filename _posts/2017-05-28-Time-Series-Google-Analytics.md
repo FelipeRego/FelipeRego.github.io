@@ -256,7 +256,7 @@ ggplot( data = df, aes( date, users )) +
   geom_text(aes(label=  ifelse(  substr(wkd,1,1)=="S", substr(wkd,1,1),""  )  ),hjust=0,vjust=0)
 ```
 
-<span class="image fit"><img src="{{ "/images/GoogleAnalyticsTimeSeriesWithR_files/figure-html/unnamed-chunk-5-1.png" | absolute_url }}" alt="" /></span>
+![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/GoogleAnalyticsTimeSeriesWithR_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
 
 ```r
 #  geom_text(data=subset(df, wkd==c("S")), aes(label= ifelse(  substr(wkd,1,1) == "S",''  )),hjust=0,vjust=0)
@@ -274,7 +274,7 @@ ggplot(df, aes(x=wkd, y=users)) +
   labs(title="User of this blog by Day of Week",x="Day of Week", y = "Users")
 ```
 
-<span class="image fit"><img src="{{ "/images/GoogleAnalyticsTimeSeriesWithR_files/figure-html/unnamed-chunk-6-1.png" | absolute_url }}" alt="" /></span>
+![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/GoogleAnalyticsTimeSeriesWithR_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
 
 As you can see in the plot above, Tuesdays through to Thursdays are the biggest days in terms of visitors. It attracts a lot of users, with some mid-week days having achieved more than 400 users at some point. In fact, it appears Thursdays contain a large number of outliers compared to other days of the week. Conversely, Saturdays, Sundays and Mondays attract the lowest number of users compared to other days of the week.
 
@@ -410,7 +410,7 @@ print(decomp)
 plot(decomp)
 ```
 
-<span class="image fit"><img src="{{ "/images/GoogleAnalyticsTimeSeriesWithR_files/figure-html/unnamed-chunk-7-1.png" | absolute_url }}" alt="" /></span>
+![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/GoogleAnalyticsTimeSeriesWithR_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
 
 Generally, time series decomposition take the form of either **additive** or **multiplicative**. There are also other forms of decomposition, but we'll not touch on those in this example.
 
@@ -471,7 +471,7 @@ The plot of the model fit (red) and the actual observed values (black) below hel
 plot(pred)
 ```
 
-<span class="image fit"><img src="{{ "/images/GoogleAnalyticsTimeSeriesWithR_files/figure-html/unnamed-chunk-9-1.png" | absolute_url }}" alt="" /></span>
+![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/GoogleAnalyticsTimeSeriesWithR_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
 
 We can now extrapolate the model to predict future users of this blog:
 
@@ -482,7 +482,7 @@ fcst = forecast.HoltWinters(pred, h=28)
 plot.forecast(fcst)
 ```
 
-<span class="image fit"><img src="{{ "/images/GoogleAnalyticsTimeSeriesWithR_files/figure-html/unnamed-chunk-10-1.png" | absolute_url }}" alt="" /></span>
+![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/GoogleAnalyticsTimeSeriesWithR_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
 
 Note from the plot above that the thick, bright blue line represents the forecast of users to this blog over the next month or so. The dark blue shaded area represents the 80% prediction interval and the light blue shaded area represents the 95% prediction interval. As we can see, the model generally illustrates the patterns observed and do a relatively good job in estimating future number of users to this blog.
 
@@ -496,13 +496,13 @@ It is also important to check for **Autocorrelation**. In general, autocorrelati
 acf(fcst$residuals[8:length(fcst$residual)], lag=60, main="Correlogram of Model Residuals")
 ```
 
-<span class="image fit"><img src="{{ "/images/GoogleAnalyticsTimeSeriesWithR_files/figure-html/unnamed-chunk-11-1.png" | absolute_url }}" alt="" /></span>
+![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/GoogleAnalyticsTimeSeriesWithR_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
 
 ```r
 hist(fcst$residuals[8:length(fcst$residual)], breaks=10, main="Histogram of Model Residuals")
 ```
 
-<span class="image fit"><img src="{{ "/images/GoogleAnalyticsTimeSeriesWithR_files/figure-html/unnamed-chunk-11-2.png" | absolute_url }}" alt="" /></span>
+![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/GoogleAnalyticsTimeSeriesWithR_files/figure-html/unnamed-chunk-11-2.png)<!-- -->
 
 Without spending too much time on the Correlogram itself, we can note that while the model works relatively well, it doesn't do a remarkable job in the early stages of the series as can be seeing in the *acf() function* autocorrelation results (y axis) at lags 2 and 3. 
 

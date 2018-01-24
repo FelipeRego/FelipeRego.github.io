@@ -98,7 +98,7 @@ Before we fit a linear model in our dataset, let’s examine how our predictors 
 plot(newdata[,c(1:4)], pch=16, col="blue", main="Matrix Scatterplot of Income, Education, Women and Prestige")
 ```
 
-<span class="image fit"><img src="{{ "/images/ResamplingValidationSet_files/figure-html/unnamed-chunk-4-1.png" | absolute_url }}" alt="" /></span>
+![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/ResamplingValidationSet_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
 
 Remember from our previous examples, we decided to manually exclude education from our multiple regression analysis as it was overfitting the data (note from the plot above how similar education’s pattern is relative to prestige’s pattern) and was not adding a significant p-value when prestige was also present in the data. So we went on to generate a few models containing these two predictors only.
 
@@ -140,7 +140,7 @@ par(mfrow=c(2,2))
 plot(mod1, pch=16)
 ```
 
-<span class="image fit"><img src="{{ "/images/ResamplingValidationSet_files/figure-html/unnamed-chunk-5-1.png" | absolute_url }}" alt="" /></span>
+![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/ResamplingValidationSet_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
 
 We fit a linear model using lm function. Observe we subset our data for the model to learn only from the training set. The resulting model shows significant p-values for the predictors and the model overall. Both our F-statistic our Adjusted R-squared are not great. Our Residual Standard Error is relatively high. The residual plots also highlight the present of some outliers.
 
@@ -3148,7 +3148,7 @@ hist(rmse, density=35, main = "Test RMSE over 100 Samples", xlab = "Value of Obt
 abline(v=mean(rmse), lwd=3, col="red")
 ```
 
-<span class="image fit"><img src="{{ "/images/ResamplingValidationSet_files/figure-html/unnamed-chunk-8-1.png" | absolute_url }}" alt="" /></span>
+![](https://github.com/FelipeRego/feliperego.github.io/raw/master/images/ResamplingValidationSet_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
 
 The histogram above highlights (the vertical red line) the average RMSE across 100 different samples as well as the spread in which the RMSE can reach. The RMSE of the income variable we got from this resampling example ranges from **$1,606** to **$3,695**. These are moderately high RMSE values.
 
