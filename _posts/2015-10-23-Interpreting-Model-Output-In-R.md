@@ -8,6 +8,8 @@ permalink: /blog/2015/10/23/Interpreting-Model-Output-In-R
 ---
 
 {% include advertisements.html %}
+
+
 Linear regression models are a key part of the family of supervised learning models. In particular, linear regression models are a useful tool for predicting a quantitative response. For more details, check an article I’ve written on [Simple Linear Regression - An example using R](https://feliperego.github.io/blog/2015/03/11/Simple-Linear-Regression-Example-in-R). In general, statistical softwares have different ways to show a model output. This quick guide will help the analyst who is starting with linear regression in R to understand what the model output looks like.
 In the example below, we’ll use the ```cars``` dataset found in the ```datasets``` package in R (for more details on the package you can call: ```library(help = "datasets")```.
 
@@ -27,6 +29,7 @@ summary(cars)
 ```
 
 The cars dataset gives Speed and Stopping Distances of Cars. This dataset is a data frame with 50 rows and 2 variables. The rows refer to cars and the variables refer to *speed* (the numeric Speed in mph) and *dist* (the numeric stopping distance in ft.). As the summary output above shows, the cars dataset’s speed variable varies from cars with speed of 4 mph to 25 mph (the data source mentions these are based on cars from the ’20s! - to find out more about the dataset, you can type ```?cars```). When it comes to distance to stop, there are cars that can stop in 2 feet and cars that need 120 feet to come to a stop.
+
 Below is a scatterplot of the variables:
 
 
@@ -38,9 +41,14 @@ plot(cars, col='blue', pch=20, cex=2, main="Relationship between Speed and Stopp
 <span class="image fit"><img src="{{ "/images/lm_output_files/figure-html/unnamed-chunk-2-1.png" | absolute_url }}" alt="" /></span>
 
 From the plot above, we can visualise that there is a somewhat strong relationship between a cars’ speed and the distance required for it to stop (i.e.: the faster the car goes the longer the distance it takes to come to a stop).
+
 In this exercise, we will:
 
 * Run a simple linear regression model in R and distil and interpret the key components of the R linear model output. Note that for this example we are not too concerned about actually fitting the best model but we are more interested in interpreting the model output - which would then allow us to potentially define next steps in the model building process.
+
+
+{% include advertisements.html %}
+
 
 Let’s get started by running one example:
 
@@ -74,6 +82,10 @@ summary(mod1)
 ```
 
 The model above is achieved by using the ```lm()``` function in R and the output is called using the ```summary()``` function on the model.
+
+
+{% include advertisements.html %}
+
 
 Below we define and briefly explain each component of the model output:
 
@@ -119,7 +131,14 @@ A side note: In multiple regression settings, the $R^2$ will always increase as 
 
 F-statistic is a good indicator of whether there is a relationship between our predictor and the response variables. The further the F-statistic is from 1 the better it is. However, how much larger the F-statistic needs to be depends on both the number of data points and the number of predictors. Generally, when the number of data points is large, an F-statistic that is only a little bit larger than 1 is already sufficient to reject the null hypothesis (H0 : There is no relationship between speed and distance). The reverse is true as if the number of data points is small, a large F-statistic is required to be able to ascertain that there may be a relationship between predictor and response variables. In our example the F-statistic is **89.5671065** which is relatively larger than 1 given the size of our data.
 
+
 {% include advertisements.html %}
+
+
 ***
 
 Note that the model we ran above was just an example to illustrate how a linear model output looks like in R and how we can start to interpret its components. Obviously the model is not optimised. One way we could start to improve is by transforming our response variable (try running a new model with the response variable log-transformed ```mod2 = lm(formula = log(dist) ~ speed.c, data = cars)``` or a quadratic term and observe the differences encountered). We could also consider bringing in new variables, new transformation of variables and then subsequent variable selection, and comparing between different models. Finally, with a model that is fitting nicely, we could start to run predictive analytics to try to estimate distance required for a random car to stop given its speed.
+
+
+{% include advertisements.html %}
+
