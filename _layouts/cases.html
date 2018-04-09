@@ -70,19 +70,19 @@
 						</p>
 
           </article> -->
-					<!-- Post -->
-					<section class="posts">
-						{% for post in site.posts %}
+					<!-- Cases -->
+					<section class="cases">
+						{% for case in site.cases %}
 						{% assign mod3 = forloop.index | modulo: 3 %}
 							<article>
 								<header>
-									<span class="date">{{ post.date | date_to_string }}</span>
-									<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
+									<span class="date">{{ case.date | date_to_string }}</span>
+									<h2><a href="{{ case.url | absolute_url }}">{{ case.title }}</h2>
 								</header>
-								<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-								<p>{{ post.excerpt }}</p>
+								<a href="{{ case.url | absolute_url }}" class="image fit"><img src="{{ case.image | absolute_url }}" alt="" /></a>
+								<p>{{ case.excerpt }}</p>
 								<ul class="actions">
-									<li><a href="{{ post.url | absolute_url }}" class="button">Read More</a></li>
+									<li><a href="{{ case.url | absolute_url }}" class="button">Read More</a></li>
 								</ul>
 							</article>
 							{% if mod3 == 0 %}

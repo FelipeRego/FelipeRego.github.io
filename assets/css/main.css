@@ -3605,7 +3605,15 @@
 			padding: 8rem 8rem 6rem 8rem ;
 		}
 
+		#main > .case {
+			padding: 8rem 8rem 6rem 8rem ;
+		}
+
 			#main > .post header.major > .date {
+				margin-top: -2rem;
+			}
+
+			#main > .case header.major > .date {
 				margin-top: -2rem;
 			}
 
@@ -3615,7 +3623,17 @@
 				margin: 0 0 2rem 0;
 			}
 
+			#main > .case header.major > h1, #main > .case header.major h2 {
+				font-size: 4rem;
+				line-height: 1.1;
+				margin: 0 0 2rem 0;
+			}
+
 			#main > .post.featured {
+				text-align: center;
+			}
+
+			#main > .case.featured {
 				text-align: center;
 			}
 
@@ -3627,13 +3645,30 @@
 
 			}
 
+			@media screen and (max-width: 1280px) {
+
+				#main > .case {
+					padding: 6rem 4rem 4rem 4rem ;
+				}
+
+			}
+
 			@media screen and (max-width: 736px) {
 
 				#main > .post {
 					padding: 4rem 2rem 2rem 2rem ;
 				}
 
+				#main > .case {
+					padding: 4rem 2rem 2rem 2rem ;
+				}
+
 					#main > .post header.major > .date {
+						margin-top: -1rem;
+						margin-bottom: 2rem;
+					}
+
+					#main > .case header.major > .date {
 						margin-top: -1rem;
 						margin-bottom: 2rem;
 					}
@@ -3644,9 +3679,33 @@
 						margin: 0 0 1.5rem 0;
 					}
 
+					#main > .case header.major > h1, #main > .case header.major h2 {
+						font-size: 2.5rem;
+						line-height: 1.2;
+						margin: 0 0 1.5rem 0;
+					}
+
 			}
 
 		#main > .posts {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			-moz-flex-wrap: wrap;
+			-webkit-flex-wrap: wrap;
+			-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+			-moz-align-items: stretch;
+			-webkit-align-items: stretch;
+			-ms-align-items: stretch;
+			align-items: stretch;
+			text-align: center;
+			width: 100%;
+			padding: 0;
+		}
+
+		#main > .cases {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -3675,11 +3734,31 @@
 				flex-grow: 0;
 			}
 
+			#main > .cases > * {
+				-moz-flex-shrink: 1;
+				-webkit-flex-shrink: 1;
+				-ms-flex-shrink: 1;
+				flex-shrink: 1;
+				-moz-flex-grow: 0;
+				-webkit-flex-grow: 0;
+				-ms-flex-grow: 0;
+				flex-grow: 0;
+			}
+
 			#main > .posts > * {
 				width: 50%;
 			}
 
+			#main > .cases > * {
+				width: 50%;
+			}
+
 			#main > .posts > * {
+				padding: 4rem;
+				width: 50%;
+			}
+
+			#main > .cases > * {
 				padding: 4rem;
 				width: 50%;
 			}
@@ -3692,7 +3771,19 @@
 				text-align: center;
 			}
 
+			#main > .cases > article {
+				border-color: #eeeeee;
+				border-left-width: 2px;
+				border-style: solid;
+				border-top-width: 2px;
+				text-align: center;
+			}
+
 				#main > .posts > article > :last-child {
+					margin-bottom: 0;
+				}
+
+				#main > .cases > article > :last-child {
 					margin-bottom: 0;
 				}
 
@@ -3700,7 +3791,15 @@
 					border-left-width: 0;
 				}
 
+				#main > .cases > article:nth-child(2n - 1) {
+					border-left-width: 0;
+				}
+
 				#main > .posts > article:nth-child(-n + 2) {
+					border-top-width: 0;
+				}
+
+				#main > .cases > article:nth-child(-n + 2) {
 					border-top-width: 0;
 				}
 
@@ -3711,6 +3810,19 @@
 				}
 
 				#main > .posts > * {
+					padding: 2.5rem;
+					width: 50%;
+				}
+
+			}
+
+			@media screen and (max-width: 980px) {
+
+				#main > .cases > * {
+					width: 50%;
+				}
+
+				#main > .cases > * {
 					padding: 2.5rem;
 					width: 50%;
 				}
@@ -3745,6 +3857,41 @@
 				}
 
 				#main > .posts > article .image {
+					max-width: 25rem;
+					margin-left: auto;
+					margin-right: auto;
+				}
+
+			}
+
+			@media screen and (max-width: 736px) {
+
+				#main > .cases > * {
+					width: 100%;
+				}
+
+				#main > .cases > * {
+					padding: 2rem;
+					width: 100%;
+				}
+
+				#main > .cases > article:nth-child(2n - 1) {
+					border-left-width: 2px;
+				}
+
+				#main > .cases > article:nth-child(-n + 2) {
+					border-top-width: 2px;
+				}
+
+				#main > .cases > article:nth-child(n) {
+					border-left-width: 0;
+				}
+
+				#main > .cases > article:nth-child(-n + 1) {
+					border-top-width: 0;
+				}
+
+				#main > .cases > article .image {
 					max-width: 25rem;
 					margin-left: auto;
 					margin-right: auto;

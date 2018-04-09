@@ -30,7 +30,7 @@ Many organisations struggle to develop a clear roadmap for their data science an
 Felipe is also an analytics instructor with experience disseminating practical, actionable analytics and data visualisation techniques in both classrooms and online settings. The organisations he works with find that partnering with Felipe results in a more engaged workforce. It’s not just the organisation as a whole that benefits - individuals feel more prepared to step up to their next challenge and confidently make use of data and analytics in their day to day work. 
 
 <h3><a href="{{ "/services/" | absolute_url }}">Academic Researcher</a></h3>
-When Felipe is not partnering with clients or helping students, he’s an M.Phil. research candidate in Learning Analytics at the University of Sydney. As part of his studies, Felipe makes sense of students’ digital traces and looks at the role learning analytics dashboards play in influencing learning outcomes.
+When Felipe is not partnering with clients or helping students, he’s an M.Phil. research candidate in Learning Analytics at the University of Sydney. As part of his research, Felipe makes sense of students’ digital traces and looks at the role learning analytics dashboards play in influencing learning outcomes.
 
 <h3><a href="{{ "/blog/" | absolute_url }}">Writer and Blogger</a></h3>
 Alongside all this, Felipe is also a blogger, writing regularly on a wide range of topics including predictive analytics, statistical learning and data visualisation. Recognised internationally for his thought leadership, Felipe received over 62,000 visitors to his blog from over 180 countries last year and some of his articles have been ranked #1 in Google search. Felipe is widely referenced by many sources and leading educational institutions including StackOverflow, Udacity, Western Michigan University, UC Santa Barbara and Edinburgh Napier University among others.
@@ -41,10 +41,15 @@ Alongside all this, Felipe is also a blogger, writing regularly on a wide range 
 On social media, we may share our own thoughts and advance our image notwithstanding spreading musings for different associations and affiliations. With such a critical number of associations with people and relationship on social media, our experience can be over-burden with a considerable measure of information.
 -->
 
+<hr>
 <header class="major">
 
-<strong>Felipe is available to consult, advise and/or develop advanced data analytics and visualisation solutions with marketing, digital, sales, operations, finance, technology and strategy teams across Australia.</strong>
+Are you truly harnessing the power of data and analytics to stay ahead of the competition?
+<br>
+<strong>I would love to hear your story, share my experience and learn about your challenges.</strong>
+
 </header>
+
 
 <ul class="actions fit small">
 	<li><a href="mailto:felipe@feliperego.com.au" class="button special fit big">Get in touch</a></li>

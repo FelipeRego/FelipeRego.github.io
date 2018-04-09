@@ -22,9 +22,13 @@ sitemap:
 <h3>Analytical Training &amp; Corporate Workshops</h3>
 <span class="image right"><img src="{{ "/images/training1.jpg" | absolute_url }}" alt="" /></span>The optimal use of data is now a major competitive advantage in business. Because of this many organisations and individuals have identified the need to upskill some of their talent if they are going to harness this power effectively. Felipe partners with both educational institutions and corporate organisations to help disseminate practical, actionable and easy-to-understand data science, predictive analytics and data visualisation techniques to students and staff. After working with Felipe, organisations can benefit from a more engaged workforce and individuals feel more prepared to step up to their next challenge. 
 
+<hr>
 <header class="major">
 
-<strong>Felipe is available to consult, advise and/or develop advanced data analytics and visualisation solutions with marketing, digital, sales, operations, finance, technology and strategy teams across Australia.</strong>
+Are you truly harnessing the power of data and analytics to stay ahead of the competition?
+<br>
+<strong>I would love to hear your story, share my experience and learn about your challenges.</strong>
+
 </header>
 
 

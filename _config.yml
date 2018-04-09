@@ -15,6 +15,13 @@ defaults:
     layout: post
     author:
 
+collections:
+  cases:
+    output: true
+    permalink: /:collection/:path
+    layout: cases
+
+
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
