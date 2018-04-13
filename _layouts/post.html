@@ -54,8 +54,22 @@
               {% include read_time.html %}
       			</header>
       			<div class="image main"><img src="{{page.image}}" alt=""></div>
+
             <p>{{content}}</p>
+
             {% include advertisements.html %}
+
+            <h2>You May Also Like...</h2>
+            <div class="box">
+              {% assign count = 1 %}
+              {% for post in site.posts %}
+              {% if post.url != page.url and count < 6 %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              {% assign count = count | plus: 1 %}
+              {% endif %}
+              {% endfor %}
+            </div>
+
       		</section>
 
 <!--          <div class="comments-wrapper">
