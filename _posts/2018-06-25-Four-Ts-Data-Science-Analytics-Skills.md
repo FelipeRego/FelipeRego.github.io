@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The 4Ts of Data Science and Analytics Skills&trade;"
+title:  "The 4Ts of Data Science and Analytics Skills"
 date: 2018-06-25
 excerpt: "What are the key capabilities of a successful data science and analytics professional - now and in the future’? What are the things I should learn if I want to become a really good data science and analytics professional?"
 image: "/images/4Ts.png"
@@ -11,9 +11,9 @@ permalink: /blog/2018/06/25/Four-Ts-Data-Science-Analytics-Skills
 
 I often get asked by many people starting out in data science and analytics ‘What are the key capabilities of a successful data science and analytics professional - now and in the future’? What are the things I should learn if I want to become a really good data science and analytics professional?
 
-When it comes to building a strong foundational skill set in data science and analytics, I normally suggest people to consider, what I call, the 4Ts&trade; of Data Science and Analytics skills.
+When it comes to building a strong foundational skill set in data science and analytics, I normally suggest people to consider, what I call, the 4Ts of Data Science and Analytics skills.
 
-The 4Ts&trade; of Data Science Skills revolves around four core competencies that every analyst should possess: Tool, Techniques, Tactics and Tact.
+The 4Ts of Data Science Skills revolves around four core competencies that every analyst should possess: Tool, Techniques, Tactics and Tact.
 
 
 <h3>#1 Tools</h3>
@@ -78,4 +78,4 @@ I also add to this the ability to tell stories, to ask questions, to find root c
 ***
 
 
-I believe the proposed 4Ts&trade; above can give a broader perspective to consider when it comes to building data science and analytics capabilities, now and in the future, for those starting out or for those who are already working in the profession.
+I believe the proposed 4Ts above can give a broader perspective to consider when it comes to building data science and analytics capabilities, now and in the future, for those starting out or for those who are already working in the profession.
