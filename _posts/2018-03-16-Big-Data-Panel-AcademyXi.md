@@ -28,8 +28,6 @@ I'm extremely proud to be able to partner up with Academy Xi and leading experts
 At this panel, The Age of Big Data: Making Sense of the Information Overload, participants will explore how big data can be used in large corporations and small-scale startups. Hear from experts who have years of experience in the industry. Panelists will be exploring various applications of big data and will discuss future opportunities for anyone interested in the collection and utilisation of information.
 
 
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//CrYWDbKruhk' frameborder='0' allowfullscreen></iframe></div>
-
 <br>
 
 For more, visit: <a href="https://academyxi.com/events/age-big-data-making-sense-information-overload/">The Age of Big Data: Making Sense of The Information Overload</a>
