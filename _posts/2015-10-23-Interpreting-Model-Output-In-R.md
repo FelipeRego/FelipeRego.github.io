@@ -30,6 +30,10 @@ summary(cars)
 
 The cars dataset gives Speed and Stopping Distances of Cars. This dataset is a data frame with 50 rows and 2 variables. The rows refer to cars and the variables refer to *speed* (the numeric Speed in mph) and *dist* (the numeric stopping distance in ft.). As the summary output above shows, the cars dataset’s speed variable varies from cars with speed of 4 mph to 25 mph (the data source mentions these are based on cars from the ’20s! - to find out more about the dataset, you can type ```?cars```). When it comes to distance to stop, there are cars that can stop in 2 feet and cars that need 120 feet to come to a stop.
 
+
+{% include advertisements.html %}
+
+
 Below is a scatterplot of the variables:
 
 
@@ -97,6 +101,10 @@ As you can see, the first item shown in the output is the formula R used to fit 
 
 The next item in the model output talks about the residuals. Residuals are essentially the difference between the actual observed response values (distance to stop dist in our case) and the response values that the model predicted. The Residuals section of the model output breaks it down into 5 summary points. When assessing how well the model fit the data, you should look for a symmetrical distribution across these points on the mean value zero (0). In our example, we can see that the distribution of the residuals do not appear to be strongly symmetrical. That means that the model predicts certain points that fall far away from the actual observed points. We could take this further consider plotting the residuals to see whether this normally distributed, etc. but will skip this for this example.
 
+
+{% include advertisements.html %}
+
+
 **Coefficients**
 
 The next section in the model output talks about the coefficients of the model. Theoretically, in simple linear regression, the coefficients are two unknown constants that represent the *intercept* and *slope* terms in the linear model. If we wanted to predict the Distance required for a car to stop given its speed, we would get a training set and produce estimates of the coefficients to then use it in the model formula. Ultimately, the analyst wants to find an intercept and a slope such that the resulting fitted line is as close as possible to the 50 data points in our data set.
@@ -109,6 +117,10 @@ The coefficient Estimate contains two rows; the first one is the intercept. The 
 
 The coefficient Standard Error measures the average amount that the coefficient estimates vary from the actual average value of our response variable. We’d ideally want a lower number relative to its coefficients. In our example, we’ve previously determined that for every 1 mph increase in the speed of a car, the required distance to stop goes up by 3.9324088 feet. The Standard Error can be used to compute an estimate of the expected difference in case we ran the model again and again. In other words, we can say that the required distance for a car to stop can vary by **0.4155128** feet. The Standard Errors can also be used to compute confidence intervals and to statistically test the hypothesis of the existence of a relationship between speed and distance required to stop.
 
+
+{% include advertisements.html %}
+
+
 *Coefficient - t value*
 
 The coefficient t-value is a measure of how many standard deviations our coefficient estimate is far away from 0. We want it to be far away from zero as this would indicate we could reject the null hypothesis - that is, we could declare a relationship between speed and distance exist. In our example, the t-statistic values are relatively far away from zero and are large relative to the standard error, which could indicate a relationship exists. In general, t-values are also used to compute p-values.
@@ -117,15 +129,27 @@ The coefficient t-value is a measure of how many standard deviations our coeffic
 
 The *Pr(>t)* acronym found in the model output relates to the probability of observing any value equal or larger than *t*. A small p-value indicates that it is unlikely we will observe a relationship between the predictor (speed) and response (dist) variables due to chance. Typically, a p-value of 5% or less is a good cut-off point. In our model example, the p-values are very close to zero. Note the ‘signif. Codes’ associated to each estimate. Three stars (or asterisks) represent a highly significant p-value. Consequently, a small p-value for the intercept and the slope indicates that we can reject the null hypothesis which allows us to conclude that there is a relationship between speed and distance.
 
+
+{% include advertisements.html %}
+
+
 **Residual Standard Error**
 
 Residual Standard Error is measure of the *quality* of a linear regression fit. Theoretically, every linear model is assumed to contain an error term *E*. Due to the presence of this error term, we are not capable of perfectly predicting our response variable (dist) from the predictor (speed) one. The Residual Standard Error is the average amount that the response (dist) will deviate from the true regression line. In our example, the actual distance required to stop can deviate from the true regression line by approximately **15.3795867** feet, on average. In other words, given that the mean distance for all cars to stop is **42.98** and that the Residual Standard Error is **15.3795867**, we can say that the percentage error is (any prediction would still be off by) **35.78%**. It’s also worth noting that the Residual Standard Error was calculated with 48 degrees of freedom. Simplistically, degrees of freedom are the number of data points that went into the estimation of the parameters used after taking into account these parameters (restriction). In our case, we had 50 data points and two parameters (intercept and slope).
+
+
+{% include advertisements.html %}
+
 
 **Multiple R-squared, Adjusted R-squared**
 
 The R-squared ($R^2$) statistic provides a measure of how well the model is fitting the actual data. It takes the form of a proportion of variance. $R^2$ is a measure of the linear relationship between our predictor variable (speed) and our response / target variable (dist). It always lies between 0 and 1 (i.e.: a number near 0 represents a regression that does not explain the variance in the response variable well and a number close to 1 does explain the observed variance in the response variable). In our example, the $R^2$ we get is 0.6510794. Or roughly 65% of the variance found in the response variable (dist) can be explained by the predictor variable (speed). Step back and think: If you were able to choose any metric to predict distance required for a car to stop, would speed be one and would it be an important one that could help explain how distance would vary based on speed? I guess it’s easy to see that the answer would almost certainly be a yes. That why we get a relatively strong $R^2$. Nevertheless, it’s hard to define what level of $R^2$ is appropriate to claim the model fits well. Essentially, it will vary with the application and the domain studied.
 
 A side note: In multiple regression settings, the $R^2$ will always increase as more variables are included in the model. That’s why the adjusted $R^2$ is the preferred measure as it adjusts for the number of variables considered.
+
+
+{% include advertisements.html %}
+
 
 **F-Statistic**
 
