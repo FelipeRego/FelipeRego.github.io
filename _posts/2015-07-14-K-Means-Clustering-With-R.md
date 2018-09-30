@@ -9,12 +9,18 @@ permalink: /blog/2015/07/14/K-Means-Clustering-With-R
 
 
 
+{% include advertisements.html %}
+
 K-Means is a clustering approach that belogs to the class of unsupervised statistical learning methods. K-Means is very popular in a variety of domains. In biology it is often used to find structure in DNA-related data or subgroups of similar tissue samples to identify cancer cohorts. In marketing, K-Means is often used to create market/customer/product segments.
 
 The general idea of a clustering algorithm is to partition a given dataset into distinct, exclusive clusters so that the data points in each group are quite similar to each 
 other.
 
 One of the first steps in building a K-Means clustering work is to define the number of clusters to work with. Subsequently, the algorithm assigns each individual data point to one of the clusters in a random fashion. The underlying idea of the algorithm is that a good cluster is the one which contains the smallest possible *within-cluster* variation of all observations in relation to each other. The most common way to define this variation is using the **squared Euclidean distance**. This process of identifying groups of similar data points can be a relatively complex task since there is a very large number of ways to partion data points into clusters.
+
+
+{% include advertisements.html %}
+
 
 Generally, the way K-Means algorithms work is via an iterative refinement process:
 
@@ -71,6 +77,10 @@ As we’ve seen, this data gives the percent of favourable responses for each de
 
 When performing clustering, some important concepts must be tackled. One of them is how to deal with data that contains multiple (or more than 2) variables. In such cases, one option would be to perform Principal Component Analysis (PCA) and then plot the first two vectors and maybe additionally apply K-Means. Other checks to be made are whether the data in hand should be standardized, whether the number of clusters obtained are truly representing the underlying pattern found in the data, whether there could be other clustering algorithms or parameters to be taken, etc. It is often recommended to perform clustering algorithms with different approaches and preferably test the clustering results with independent datasets. Particularly, it is very important to be careful with the way the results are reported and used.
 
+
+{% include advertisements.html %}
+
+
 For simplicity, we’re not going to tackle most of these concerns in this example but they should always be part of a more robust work.
 
 In light of the example, we’ll take a subset of the attitude dataset and consider only two variables in our K-Means clustering exercise. So imagine that we would like to cluster the attitude dataset with the responses from all 30 departments when it comes to ‘privileges’ and ‘learning’ and we would like to understand whether there are commonalities among certain departments when it comes to these two variables.
@@ -126,6 +136,10 @@ plot(1:15, wss, type="b", xlab="Number of Clusters",
 
 
 With the Elbow method, the solution criterion value (within groups sum of squares) will tend to decrease substantially with each successive increase in the number of clusters. Simplistically, an optimal number of clusters is identified once a “kink” in the line plot is observed. As you can grasp, identifying the point in which a “kink” exists is not a very objective approach and is very prone to heuristic processes.
+
+
+{% include advertisements.html %}
+
 
 But from the example above, we can say that after 6 clusters the observed difference in the within-cluster dissimilarity is not substantial. Consequently, we can say with some reasonable confidence that the optimal number of clusters to be used is 6.
 

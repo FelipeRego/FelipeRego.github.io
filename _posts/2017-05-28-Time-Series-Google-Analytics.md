@@ -8,8 +8,14 @@ permalink: /blog/2017/05/28/Time-Series-Google-Analytics
 ---
 
 
+{% include advertisements.html %}
+
 
 Data that are obtained in series of points over an equally spaced period of time are generally referred to as Time series data. Monthly retail sales, daily weather forecast, unemployment figures, consumer sentiment surveys, among many others, are classic examples of time series data. In fact, most variables in nature, science, business and many other applications rely on data that can be measured in a fixed time interval.
+
+
+{% include advertisements.html %}
+
 
 One of the key reasons time series data are analysed is to understand the past and predict the future. Scientists can use historical data on climate to predict future climate changes. Marketing managers can look at historical sales of a certain product and predict demand in the future.
 
@@ -18,6 +24,10 @@ In the digital world, a great application of time series data can be on the anal
 In this article, we are going to look at a time series dataset pertaining to users visiting this blog. I'll set up a connection with Google Analytics API in R and bring daily users from mid-Jan 2017 through to mid-May 2017. We'll then create a forecast to predict the number of users this blog will likely attract. I've randomly picked the date range for illustration purposes only.
 
 The idea here is for us to learn how to query data from Google Analytics into R and how to create a time series forecast.
+
+
+{% include advertisements.html %}
+
 
 Let's start by setting up our working directory and load the necessary libraries:
 
@@ -45,7 +55,12 @@ load("GATimeSeriesInR_oauth_token")
 
 With the connection via OAuth sorted, I was able to start querying daily time series data from my blog's users from the Google Analytics API. Below is the initial query that sets the parameters I wanted. In this example, I'm simply pulling users of my blog by day from mid-Jan 2017 to mid-May 2017.
 
+
+{% include advertisements.html %}
+
+
 More details can be found of the Google Analytics Developers pages on how to structure different queries to suit other needs [here](https://developers.google.com/analytics/devguides/reporting/core/dimsmets#cats=user).
+
 
 
 
@@ -242,6 +257,10 @@ As you can see from the 30 records above, the only features or variables used ar
 
 The GetReportDate function will set the query in motion. In this example, our time series is 120 days long so the query will take a minute or so to run. For longer, more complex queries, expect longer times and beware of API quotas too! The *GetReportDate()* function also allows us to pass a *split_daywise* parameter which paginates the results and break it down on a daily basis.
 
+
+{% include advertisements.html %}
+
+
 One of the most important steps in time series analysis is to plot your data and inspect it for any patterns and movements in the series. Let's plot the results our daily users in a time series graph to inspect any trends or seasonality:
 
 
@@ -279,6 +298,10 @@ ggplot(df, aes(x=wkd, y=users)) +
 As you can see in the plot above, Tuesdays through to Thursdays are the biggest days in terms of visitors. It attracts a lot of users, with some mid-week days having achieved more than 400 users at some point. In fact, it appears Thursdays contain a large number of outliers compared to other days of the week. Conversely, Saturdays, Sundays and Mondays attract the lowest number of users compared to other days of the week.
 
 So, when we revisit the time series graph above we can now say that the users tend to visit this blog more during the week (peaks on Thursdays) and less during the weekend (troughs on Sunday). This is the seasonal variation we observed earlier.
+
+
+{% include advertisements.html %}
+
 
 In time series analysis, we tend to separate (or **decompose**) the time series data observed into essentially three components: the **trend**, the **seasonal** and the **irregular**. 
 
@@ -414,6 +437,10 @@ plot(decomp)
 
 Generally, time series decomposition take the form of either **additive** or **multiplicative**. There are also other forms of decomposition, but we'll not touch on those in this example.
 
+
+{% include advertisements.html %}
+
+
 In simplistic terms, additive decompositions are used in time series in which the underlying level of the series fluctuates but the magnitude of the seasonality remains relatively stable. The amplitude of the seasonal and irregular components does not change considerably as the trend level change over time.
 
 On the other hand, multiplicative decompositions are used when the amplitude of the seasonal and irregular increase as the trend increases. 
@@ -421,6 +448,10 @@ On the other hand, multiplicative decompositions are used when the amplitude of 
 We can observe in the initial time series plot above that the magnitude of the seasonality remains largely stable across the time series which indicates that an additive decomposition would make more sense. In fact, if you inspect our R script above, you can note that we are using an additive decomposition with the *decompose()* function.
 
 One of our objectives in this exercise is to also try and fit a model that allows us to extrapolate the data and make predictions, forecast of future users of this blog. Obviously, a key assumption in forecasting time series is that the present trend will continue. That is, in the absence of any surprising change or shock, the overall trend should remain similar in the future (at least in the short-term). We'll also disregard any underlying causes for the patterns observed (i.e. any posts from this blog being featured on a Facebook page which had a lot of visibility and may have driven a lot of users to the blog page, for example).
+
+
+{% include advertisements.html %}
+
 
 When we perform forecasting in time series, our intention is to predict some future value given a past history of observations up to a certain point in time. Many considerations need to be taken around the form of exponential smoothing required to fit a time series model. We'll touch on only one method here for simplicity sake.
 
@@ -460,6 +491,10 @@ print(pred)
 ```
 
 As we can see from the model fit above, Holt-Winters' smoothing is done using three parameters: **alpha**, **beta** and **gamma**. Alpha estimates the trend (or level) component, the beta estimates the slope of the trend component and gamma estimates the seasonal component. These estimates are based on the latest time point in the series and these are the values that will be used for prediction. The values of alpha, beta and gamma range from 0 to 1, where values close to 0 indicates that recent observations have little weight in the estimates.
+
+
+{% include advertisements.html %}
+
 
 From the result above, we can see that the smoothing estimate for alpha is 0.4524278, beta is 0.0211364 and gamma is 0.5593518. The value of alpha is around 0.5 which indicates that both short-term, recent observations and historical, more distant observations play a part in the trend estimates of the time series. The value of beta is close to zero which indicates that slope (change in level from one time period to the next) of the trend component remain relatively similar throughout the series. The value of gamma is relatively similar to alpha which indicates that the seasonal estimates are based on both recent and distant observations.
 
@@ -507,6 +542,10 @@ hist(fcst$residuals[8:length(fcst$residual)], breaks=10, main="Histogram of Mode
 Without spending too much time on the Correlogram itself, we can note that while the model works relatively well, it doesn't do a remarkable job in the early stages of the series as can be seeing in the *acf() function* autocorrelation results (y axis) at lags 2 and 3. 
 
 Additionally, we can see from the histogram of the residuals that the forecast errors are somewhat normally distributed with a presence of some outliers which indicates a relatively good model fit.
+
+
+{% include advertisements.html %}
+
 
 Obviously, more tests can and should be performed to test and confirm whether the model is appropriate or can be improved upon, but we'll leave it at that for now.
 
