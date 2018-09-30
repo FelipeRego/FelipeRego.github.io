@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "The 4Ts of Data Science and Analytics Skills"
+title:  "The 4 Core Competencies of the Future-Proof Data Scientist"
 date: 2018-06-25
 excerpt: "What are the key capabilities of a successful data science and analytics professional - now and in the future’? What are the things I should learn if I want to become a really good data science and analytics professional?"
 image: "/images/4Ts.png"
-permalink: /blog/2018/06/25/Four-Ts-Data-Science-Analytics-Skills
+permalink: /blog/2018/06/25/Four-Core-Competencies-Data-Scientist-Analytics-Skills
 ---
 
 
