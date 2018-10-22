@@ -2,7 +2,7 @@
 layout: post
 title:  "Accelerated Computing for Innovation Conference 2018"
 date: 2018-09-28
-excerpt: "Highlights and key takeaways from the ACIC18 presented by The Sydney Informatics Hub at the University of Sydney"
+excerpt: "Highlights from the ACIC18 presented by The Sydney Informatics Hub at the University of Sydney"
 image: "/images/ACIC18.png"
 permalink: /blog/2018/09/28/Accelerated-Computing-Innovation-Conference-USYD
 ---
