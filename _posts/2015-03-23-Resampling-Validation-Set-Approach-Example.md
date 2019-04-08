@@ -7,12 +7,19 @@ image: "/images/resampling1.jpg"
 permalink: /blog/2015/03/23/Resampling-Validation-Set-Approach-Example
 ---
 
-
+{% include advertisements.html %}
 
 
 **Resampling** is a technique that allows us to repeatedly draw samples from a set of observations and to refit a model on each sample in order to obtain additional information. Resampling can be useful to estimate the variability of the model fit and to estimate the error rate of the model when applied in new previously unseen data. Resampling can also help in selecting a good level of model flexibility and can also be used to compare the performance (and error rates) of different predictive models.
 
+
 There are many resampling techniques available. Some of the most popular ones include **Cross-Validation** techniques (**K-Fold**, **Leave-One-Out**, etc.), **Bootstrap** and **Validation Set** (training and testing set split).
+
+
+
+{% include advertisements.html %}
+
+
 
 In this example we’ll focus on one simple technique which will give us the basis for other cross-validation techniques in the future. We’re going to be working with the Validation Set Approach
 Let’s start by loading the necessary packages. We’ll continue to use Prestige as our dataset of choice. It can be found in the car package ```library(car)```:
@@ -25,6 +32,8 @@ library(rgl)
 library(knitr)
 library(scatterplot3d)
 ```
+
+
 
 For illustration purposes, let’s re-create the same data structure we had before with the Prestige dataset:
 
@@ -62,11 +71,18 @@ summary(newdata)
 ##  Max.   : 5.232   Max.   : 40.367   Max.   : 68.53
 ```
 
+{% include advertisements.html %}
+
+
 The Prestige dataset is a data frame with 102 rows and 6 columns. Each row is an observation that relate to an occupation. The columns relate to predictors such as average years of education, percentage of women in the occupation, prestige of the occupation, etc. Note also that we centered and scaled our data frame and renamed it to **newdata**.
 
 If you recall from out previous examples, we’ve been focused on creating both simple and multiple linear regression problems with more emphasis on inference without paying too much attention to the predictive quality of the models created. We were simply assessing accuracy and quality of fit on the data used to build these models.
 
 But for any model to have a strong predictive power, we must measure its error rate on data that was not used to build them. When we derive models from a dataset, these models estimate their coefficients by minimizing the errors found exclusively on those data points alone.
+
+
+{% include advertisements.html %}
+
 
 If we go on to apply these same models on sets of completely new and previously unseen data points, the model generated may end up yielding large error rates simply because the patterns found in that original dataset may not be picked up in the new dataset.
 
@@ -88,6 +104,9 @@ length(trainRows)
 ## [1] 51
 ```
 
+{% include advertisements.html %}
+
+
 Note from the above code that we created a training and a testing dataset. We’ll be using the training dataset to build our predictive model and then applying it on the testing dataset to assess the error rate. Since our target variable (income from the Prestige dataset) is of a continuous nature, we’ll continue to apply linear regression models for now. Consequently, our error rate will be given by a continuous variable error measure such as the **Mean Squared Error** or the **Root Mean Squared Error**.
 
 Before we fit a linear model in our dataset, let’s examine how our predictors are related to our target variable income:
@@ -99,6 +118,11 @@ plot(newdata[,c(1:4)], pch=16, col="blue", main="Matrix Scatterplot of Income, E
 ```
 
 <span class="image fit"><img src="{{ "/images/ResamplingValidationSet_files/figure-html/unnamed-chunk-4-1.png" | absolute_url }}" alt="" /></span>
+
+
+{% include advertisements.html %}
+
+
 
 Remember from our previous examples, we decided to manually exclude education from our multiple regression analysis as it was overfitting the data (note from the plot above how similar education’s pattern is relative to prestige’s pattern) and was not adding a significant p-value when prestige was also present in the data. So we went on to generate a few models containing these two predictors only.
 
@@ -141,6 +165,11 @@ plot(mod1, pch=16)
 ```
 
 <span class="image fit"><img src="{{ "/images/ResamplingValidationSet_files/figure-html/unnamed-chunk-5-1.png" | absolute_url }}" alt="" /></span>
+
+
+{% include advertisements.html %}
+
+
 
 We fit a linear model using lm function. Observe we subset our data for the model to learn only from the training set. The resulting model shows significant p-values for the predictors and the model overall. Both our F-statistic our Adjusted R-squared are not great. Our Residual Standard Error is relatively high. The residual plots also highlight the present of some outliers.
 
@@ -3116,7 +3145,15 @@ sqrt(mean((newdata$income-predict(mod1, newdata))[-trainRows]^2))
 ## [1] 2804.979
 ```
 
+
+{% include advertisements.html %}
+
+
 Note from the above code that we use the predict function to apply the model onto the testing set. The results calculate the Root Mean Squared Error (RMSE). The Root Mean Squared Error is simply the square root of the average squared errors found between the actual data point and the model fitted values. Taking the square root allows the error to have the same units as the quantity being estimated in the Y axis which yields a more easily interpretable result. The Root Mean Squared Error measure tends to be influenced by variances due to outliers (which is our case here since we got a RMSE of **$2,805**). RMSE is most useful when large errors are not desired. We could have used another measure such as **Mean Absolute Error** which measures the average value of the errors between the prediction and the actual data giving similar weight to all error values.
+
+
+{% include advertisements.html %}
+
 
 So up to now, we’ve seen that the Validation Set approach provides a simple estimate of the test error rate (applying the model on previously unseen data). However, if we run the training and testing split with a different set of data for each sample, we will obtain somewhat different errors on the testing set. Let’s see how this plays out in the dataset. We’ll create a *for loop* to generate 100 sample sets for train and test with the model and see how the Root Mean Squared Error varies:
 
@@ -3149,6 +3186,12 @@ abline(v=mean(rmse), lwd=3, col="red")
 ```
 
 <span class="image fit"><img src="{{ "/images/ResamplingValidationSet_files/figure-html/unnamed-chunk-8-1.png" | absolute_url }}" alt="" /></span>
+
+
+
+{% include advertisements.html %}
+
+
 
 The histogram above highlights (the vertical red line) the average RMSE across 100 different samples as well as the spread in which the RMSE can reach. The RMSE of the income variable we got from this resampling example ranges from **$1,606** to **$3,695**. These are moderately high RMSE values.
 
