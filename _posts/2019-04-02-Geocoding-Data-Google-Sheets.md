@@ -26,7 +26,7 @@ The video below illustrates how it works once the script has been implemented:
 {% include advertisements.html %}
 
 
-And below is the original script which was sourced from the followin github repo:
+And below is the original script which was sourced from the following github repository [link:][https://github.com/nuket/google-sheets-geocoding-macro/blob/master/Code.gs]
 
 <script src="http://gist-it.appspot.com/https://github.com/nuket/google-sheets-geocoding-macro/blob/master/Code.gs"></script>
 
