@@ -21,7 +21,7 @@ In this blog post I wanted to share a custom script I found online that helps no
 
 The video below illustrates how it works once the script has been implemented:
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//Zp4zhCt7eew' frameborder='0' allowfullscreen></iframe></div>
-
+<p> </p>
 
 {% include advertisements.html %}
 
