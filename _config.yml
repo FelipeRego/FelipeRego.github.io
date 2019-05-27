@@ -54,7 +54,7 @@ phone:              +61 2 8005 8138
 email:              felipe@feliperego.com.au
 
 # Gems
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-feed
