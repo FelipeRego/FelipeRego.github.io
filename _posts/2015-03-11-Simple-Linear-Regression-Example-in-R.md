@@ -7,14 +7,14 @@ image: "/images/simpleregression1.jpg"
 permalink: /blog/2015/03/11/Simple-Linear-Regression-Example-in-R
 ---
 
-
+{% include advertisements.html %}
 
 Linear regression is a type of supervised statistical learning approach that is useful for predicting a quantitative response Y. It can take the form of a single regression problem (where you use only a single predictor variable X) or a multiple regression (when more than one predictor is used in the model). It is one of the simplest and most straightforward approaches available and it is a starting point for more advanced modelling and predictive exercises.
 
 This example will illustrate the application of a linear regression exercise using one single predictor (Simple Linear Regression). Our primary focus will be on the inferential aspect of the statistical learning exercise rather than on the its predicitve aspect.
 
 
-
+{% include advertisements.html %}
 
 
 The dataset we'll used is called **Prestige** and comes from the car package `library(car)`. The **Prestige** dataset is a data frame with 102 rows and 6 columns. Each row is an observation that relates to an occupation. The columns relate to predictors such as average years of education, percentage of women in the occupation, prestige of the occupation, etc.
@@ -80,7 +80,7 @@ summary(Prestige)
 ```
 
 
-
+{% include advertisements.html %}
 
 
 Since our focus in this example is the simple linear regression model, we'll discard all other variables and keep only two: *Income* will be our target variable and *education* will be our predictor variable in the analysis.
@@ -120,7 +120,7 @@ qplot(education, data = newdata, geom="histogram", binwidth=1) +
 <span class="image fit"><img src="{{ "/images/LinearRegression_files/figure-html/unnamed-chunk-4-1.png" | absolute_url }}" alt="" /></span>
 
 
-
+{% include advertisements.html %}
 
 
 The histogram above allows us to see the pattern in the distribution of average years of education in the dataset. The blue vertical line shows the median value and the red line the average value.
@@ -143,7 +143,7 @@ qplot(income, data = newdata, geom="histogram", binwidth=1000) +
 <span class="image fit"><img src="{{ "/images/LinearRegression_files/figure-html/unnamed-chunk-5-1.png" | absolute_url }}" alt="" /></span>
 
 
-
+{% include advertisements.html %}
 
 
 The histogram above shows the pattern in the distribution of average income. The blue vertical line shows the median value and the red line the average value.
@@ -161,7 +161,7 @@ qplot(education, income, data = newdata, main = "Relationship between Income and
 <span class="image fit"><img src="{{ "/images/LinearRegression_files/figure-html/qplot-1.png" | absolute_url }}" alt="" /></span>
 
 
-
+{% include advertisements.html %}
 
 
 
@@ -177,7 +177,7 @@ $$ Income = B0 + B1 * Education$$
 The model will estimate the value of the *intercept (B0)* and the *slope (B1)*. In our case, the *intercept* is the expected income value for the average number of years of education and the *slope* is the average increase in income associated with a one-unit increase in years of education. We want our model to fit a line across the observed relationship in a way that the line created is as close as possible to all data points.
 
 
-
+{% include advertisements.html %}
 
 
 Let's use R **lm** function. The **lm** function is used to fit linear models. For more details, see: https://stat.ethz.ch/R-manual/R-devel/library/stats/html/lm.html. Here we are using *Least Squares* approach.
@@ -230,7 +230,7 @@ qplot(education.c, income, data = newdata, main = "Relationship between Income a
 The result of the model and the graph with the fitted line is shown above.
 
 
-
+{% include advertisements.html %}
 
 
 Before we discuss the model output, note we created a new variable called **education.c**. This new variable centers the value of the variable education on its mean. This transformation was applied on the education variable so we could have a meaningful interpretation of its intercept estimate. Centering allows us to say that the estimated income when we consider the average number of years of education across the dataset is $6,798.
@@ -250,7 +250,7 @@ From the model output and the scatterplot we can make some interesting observati
 - Given that the Residual standard error for income is <span>$</span>3483 and the mean income value is  <span>$</span>6798, we can assume that the average percentage error for any given point is more than 51%! Again, a pretty large error rate.
 
 
-
+{% include advertisements.html %}
 
 
 To throw some further evidence supporting the lack of model fit, let's plot the residuals against the predicted values:
@@ -268,7 +268,7 @@ The graph above shows the model residuals (which is the average amount that the 
 Ideally, when the model fits the data well, the residuals would be randomly scattered around the horizontal line. In our case here, there is strong evidence a non-linear pattern is present in the relationship. Also, there are points standing far away from the horizontal line. This could indicate the presence of outliers (note how the points for general managers, physicians and lawyers are way out there!).
 
 
-
+{% include advertisements.html %}
 
 
 Next steps from here would include some transformation procedure of the variables. We could try transforming all variables by some sort of rule such as log or square root, etc. To avoid going through endless attempts to find an appropriate transformation to apply in the data, we're going to transform only our response variable *income* using a procedure called **Box-Cox power transformation**.
@@ -291,7 +291,7 @@ optimal_lambda = trans_df[which.max(trans$y),1]
 ```
 
 
-
+{% include advertisements.html %}
 
 
 
@@ -370,7 +370,7 @@ qplot(income_transf, data = newdata, geom="histogram", binwidth=0.5) +
 <span class="image fit"><img src="{{ "/images/LinearRegression_files/figure-html/unnamed-chunk-11-1.png" | absolute_url }}" alt="" /></span>
 
 
-
+{% include advertisements.html %}
 
 
 Note on the histogram above how the 'shape' of the income variable changed to a more 'normally' distributed form. We can still see some extreme values that are impacting the model fit.
@@ -395,7 +395,7 @@ plot(mod2, pch=16, which=1)
 From the output above, we can see that the box-cox transformation provided an unnoticeable improvement in the model results. We had negligeable improvement in the R-squared values. The graphs show how the box-cox transformation on the income variable 'reshapes' the data and gives it a more nomally distributed look. Note also how the second model's residual plot indicates a more random pattern but the presence of points (some new ones) far away from the horizontal line still exist in the data. 
 
 
-
+{% include advertisements.html %}
 
 
 These findings help sediment the belief that a non-linear model is more appropriate for this dataset.
