@@ -18,7 +18,6 @@ From my perspective, it can also be useful for teaching analytics and also if yo
 It contains some great documentation too: [Faker's documentation](https://faker.readthedocs.io/en/stable/index.html)
 
 
-{% include advertisements.html %}
 
 
 A few examples I wanted to share are shown below. Start by importing the Faker library and pandas:
@@ -56,8 +55,6 @@ for n in range(5):
     Mark Ramirez
 
 
-{% include advertisements.html %}
-
 
 There are many other different types of fake data you can generate by using 'providers'. For a list of providers see the docs.
 ```python
@@ -81,8 +78,6 @@ for n in range(5):
 
 
 
-{% include advertisements.html %}
-
 
 And if you wanted to generate a custom list of fake data types and create a pandas data frame with these fake data points:
 
@@ -103,8 +98,6 @@ df = df[['Nam', 'Job', 'Txt', 'Add', 'Lat', 'Lon']]
 df
 ```
 
-
-{% include advertisements.html %}
 
 
 
