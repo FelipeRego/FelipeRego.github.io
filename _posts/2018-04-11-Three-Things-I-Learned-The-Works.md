@@ -7,7 +7,7 @@ image: "/images/3thingstheworks1.jpeg"
 permalink: /blog/2018/04/11/Three-Things-I-Learned-The-Works
 ---
 
-{% include advertisements.html}
+{% include advertisements.html %}
 
 
 Late last year, I helped Australia's leading creative agency The Works build, present and win a big analytics project to a major client. Below are three ideas that I believe were key to driving this successful outcome:

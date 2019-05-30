@@ -7,7 +7,7 @@ image: "/images/4Ts.png"
 permalink: /blog/2018/06/25/Four-Core-Competencies-Data-Scientist-Analytics-Skills
 ---
 
-{% include advertisements.html}
+{% include advertisements.html %}
 
 I often get asked by many people starting out in data science and analytics ‘What are the key capabilities of a successful data science and analytics professional - now and in the future’? What are the things I should learn if I want to become a really good data science and analytics professional?
 
