@@ -7,7 +7,6 @@ image: "/images/geocodegooglesheets1.jpg"
 permalink: /blog/2019/04/02/Geocoding-Data-Google-Sheets
 ---
 
-{% include advertisements.html %}
 
 Many business people use spreadsheets. And many business people face the challenge of sometimes having to enrich their data with addresses and geo coordinates. However, many businesses don't have the skills, the time or the resources to utilise more technical bespoke solutions for geocoding and address enrichment / validation.
 

@@ -7,8 +7,6 @@ image: "/images/ACIC18.png"
 permalink: /blog/2018/09/28/Accelerated-Computing-Innovation-Conference-USYD
 ---
 
-{% include advertisements.html %}
-
 I had the opportunity to attend a few sessions at the Accelerated Computing for Innovation Conference 2018 resented by The Sydney Informatics Hub at the University of Sydney. It was a great time hearing some of the leading-edge work conducted by many different researchers and academics around how data science and machine learning has been used in a variety of applications specifically using large scale, high performance computing. All presenters had fantastic content to share across a broad range of topics such as health, genomics, astronomy, climate and more social aspects. Below is only a few of the topics that resonated with me - particularly because it was closer to the work I do in my consulting work and also around the teaching and training I conduct. For a full list of presenters, see <a href="https://informatics.sydney.edu.au/hpc_conference/">here.</a>
 
 
