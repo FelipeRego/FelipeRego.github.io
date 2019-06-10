@@ -8,6 +8,7 @@ permalink: /blog/2015/04/01/Kaggle's-Otto-Group-Challenge-RandomForestExample
 ---
 
 
+{% include advertisements.html %}
 
 
 A couple of weeks ago, I decided to join [my 3rd Kaggle competition](https://www.kaggle.com/users/21458/feliperego): the [Otto Group Product Classification Challenge](https://www.kaggle.com/c/otto-group-product-classification-challenge). To me, participating on Kaggle competitions is a great way to learn and apply machine learning with different real-world datasets.
@@ -23,6 +24,10 @@ I've recently joined forces with my fellow team mate Saeh once again (we're doin
 These algorithms were fairly straight-forward to implement in R and can be a good starting point for beating the competition's benchmark.
 
 In this post, I share with you the most simplistic version of the algorithm I initially used (a few days ago it was putting me on a good spot on the leader board, but since then other approaches are working better). You'll note how simplistic the approach was, particularly around the resampling side of things, but nevertheless, it was a fun starting point!
+
+
+{% include advertisements.html %}
+
 
 After loading both the training and testing datasets up, I loaded all packages I was planning to use:
 
@@ -119,6 +124,9 @@ The above algorithm yielded something like 0.57 on the leader board (now that wo
 Note that so many improvements could have been made by thinking about the resampling process a bit further (maybe using the caret package?). There could have been further features created or some variable transformation considered.
 
 These are only some of the things we (and I mean all competitors I'd imagine...) are thinking at the moment in the competition.
+
+
+{% include advertisements.html %}
 
 ***
 

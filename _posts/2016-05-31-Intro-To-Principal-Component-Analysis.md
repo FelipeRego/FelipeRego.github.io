@@ -7,7 +7,7 @@ image: "/images/pca1.jpg"
 permalink: /blog/2016/05/31/Intro-To-Principal-Component-Analysis
 ---
 
-
+{% include advertisements.html %}
 
 
 
@@ -16,7 +16,7 @@ Principal Component Analysis (PCA) is a popular method used in statistical learn
 PCA can also be used in unsupervised learning problems to discover, visualise an explore patterns in high-dimensional datasets when there is not specific response variable. Additionally, PCA can aid in clustering exercises and segmentation models.
 
 
-
+{% include advertisements.html %}
 
 
 In this article, we're going to look at PCA as a tool for unsupervised learning, data exploration and visualisation (remembering that visualisation is a key step in the exploratory data analysis process). 
@@ -54,7 +54,7 @@ Note that this specific dataset example is only illustrative and is not really a
 The **mtcars** dataset contains 32 observations each representing a specific car model and 11 variables each with a different measure derived from the road test or from the properties of the car.
 
 
-
+{% include advertisements.html %}
 
 
 Even in this basic example, visualising patterns among all variables in the data by running pairwise scatterplots is a challenging endeavour:
@@ -79,7 +79,7 @@ PCA is a method that allows you to find low-dimensional representations of your 
 PCA computes the first principal component of a set of features / variables by a normalized (**centered to mean zero**) linear combination of the features that have the largest variance, which after a few mathematical computations, arrives on scores (Z1) for the first principal component. The second principal component (Z2), again, is the linear combination of all features / variables across all data points that have a maximum variance but that are not related with Z1. By making the second principal component uncorrelated to Z1, we are forcing it to be orthogonal (or perpendicular to the direction in which Z1 is projected). The idea here being that if we were to project the PCAs onto a two-dimensional plane, the second PCA would be perpendicular to the first PCA (hence, capturing the variance across both dimensions). Obviously, in a dataset with more than two variables, we can find multiple principal components.
 
 
-
+{% include advertisements.html %}
 
 
 Let's get back to our example dataset of cars:
@@ -202,7 +202,7 @@ biplot(PC_res$ind$coord, PC_res$var$coord, scale=0, cex=0.7, main="Biplot for th
 The graph above displays the first two principal components which explain more than 84% of the variance in the cars dataset. The black car names represent the scores for the first two principal components. The red arrows represent the first two principal components loading vectors.
 
 
-
+{% include advertisements.html %}
 
 
 For example, we can see that the first PC (horizontal axis) places more positive weight on variables such as cyl (number of cylinders in a car), disp(displacement in cubic inches of a car) and places negative weights on variables such as mpg (miles per gallon). So we could say that the first PC places cars that are 'powerful and heavy' on the right side and places cars that are 'economical' and 'versatile' on the left side.
@@ -214,7 +214,7 @@ Pick the Maseratti Bora which is located on the upper right hand corner of our b
 We have identified that the first two PC explain more than 84% of the variance in the data.
 
 
-
+{% include advertisements.html %}
 
 
 However, how many Principal Components can be or are created? In general, the number of Principal Components created  will be the minimum value found of either (n-1) where n is the number of data points in a dataset or (p) where p is the number of variables in your data. So for example, in our cars dataset, the minimum value between 31 (number of observations - 1) and 11 (number of variables in the cars dataset) is the latter (11). So the expected number of Principal Components will be 11.
@@ -269,7 +269,7 @@ Above you can see that there are 11 distinct principal components as expected wi
 Also, from performing PCA, one may wonder how much information is lost by projecting a 'wide' dataset onto a few principal components? The answer here is in the Proportion of Variance Explained (PVE) by each Principal Component, which is always a positive quantity that explains the variance of each Principal Component. The PVE is a positive quantity and the cumulative sum of PVEs will be 100%. So, once we plot the Principal Components, it's always relevant to display the PVE of each Principal Component.
 
 
-
+{% include advertisements.html %}
 
 
 The next natural question is how many Principal Components should one consider? In general, the number of Principal Components in a dataset will be the minimum of either (n-1) where n is the number of data points or (p) where p is the number of variables in your data.
@@ -298,6 +298,8 @@ ggplot(data=plot_dta, aes(x=pc, y=unlist(pve), group=1)) +
 
 We can see from the scree plot above that the point at which the proportion of variance explained by each subsequent principal component drops off is from the 3rd principal component. 
 
+
+{% include advertisements.html %}
 
 
 Let's now plot the first three principal components in an interactive 3D scatterplot (you can click on the graph and drag it around to observe each individual point in different angles. You can also zoom in and out using your mouse scroll wheel):
@@ -3260,6 +3262,7 @@ You must enable Javascript to view this page properly.</p>
 
 Next, we could use the results of the PCA in a supervised learning work (in regression or classification). We could also continue and perform clustering analysis using the results of the PCA to create specific segments of cars that are similar in some ways.
 
+{% include advertisements.html %}
 
 ***
 

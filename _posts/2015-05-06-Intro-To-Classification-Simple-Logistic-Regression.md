@@ -8,6 +8,7 @@ permalink: /blog/2015/05/06/Intro-To-Classification-Simple-Logistic-Regression
 ---
 
 
+{% include advertisements.html %}
 
 
 In many situations in statistical learning, the response variable you want to predict in your dataset is not quantitative (for example, height or weight of individuals). Sometimes, the response variable is instead **qualitative** (Female / Male are an example of a qualitative data).
@@ -166,6 +167,10 @@ qplot(number.customer.service.calls, data = tr_dt, geom="histogram", binwidth=1)
 
 Accounts from this training data set make an average of 1.5424 calls, with the median value sitting at 1 calls. Note also how the shape of the data is relatively right skewed. 
 
+
+{% include advertisements.html %}
+
+
 For this dataset, logistic regression will model the probability a customer will churn. So considering the predictor *Number of Customer Service Calls*  - which here we are assuming it relates to the number of calls an account made to customer service centre to complain about something - the probability of churn is given by:
 
 **Pr(churn = yes given Number of Customer Service Calls)**
@@ -177,6 +182,10 @@ The logistic function is given by:
 $$p(X)=\frac{e^{B0+B1*X}}{1+e^{B0+B1*X}}$$
 
 As with linear models, here our regression coefficients B0 and B1 are unknowns and need to be estimated. Differently than linear regressions though, we use a method called *maximum likelihood* which tries to find the parameters such that the estimates yield a number close to 1 (one) for all individuals who churned and a number close to 0 (zero) for all individuals who did not churn. The estimated B0 and B1 values are chosen to maximise this likelihood.
+
+
+{% include advertisements.html %}
+
 
 To illustrate, let's jump right into fitting the logistic model and plot the function with the estimated probabilities of churn given our predictor variable *Number of Customer Service Calls*. We'll use **glm()** function which fits generalized linear models, including logistic regression. We'll plot the logistic function using **ggplot2**:
 
@@ -233,6 +242,8 @@ ggplot(tr_dt, aes(x=number.customer.service.calls, y=churn)) +
 <span class="image fit"><img src="{{ "/images/IntroToClassification_files/figure-html/unnamed-chunk-4-1.png" | absolute_url }}" alt="" /></span>
 
 
+{% include advertisements.html %}
+
 
 Let's look at both the model output and the plot above:
 
@@ -248,6 +259,10 @@ Let's look at both the model output and the plot above:
 - With the coefficients now estimated, we can compute the probability of churn for any given *Number of Customer Service Calls* made. So, for example, using the coefficient estimates from the table we can predict that the churn probability for an account that made 6 calls to Customer Service is:
 
 $$p(X)=\frac{e^{B0+B1*X}}{1+e^{B0+B1*X}} = \frac{2.71828^{-2.5066648+0.3950357*6}}{1+2.71828^{-2.5066648+0.3950357*6}}$$
+
+
+{% include advertisements.html %}
+
 
 We can also write a customised function in R to help us calculate any given number of calls made one at a time and check the probability a customer will churn given that number of customer service calls made:
 
@@ -314,6 +329,8 @@ mean(churn_pred==te_dt$churn)
 After fitting a logistic regression on our training set (mod1) we obtain the predicted probabilities of the accounts to churn form our test set. We finally compare the models predictions with the actual churn results in the test dataset.
 
 A confusion matrix is a helpful tool to assess the errors the model is making. For example, the table above reveals that our simple logistic regression model predicted a total of only 2 accounts would churn (out of our 1,250 test set). Of these 2 accounts, 1 actually churned and another did not. So only 1 out of 1,074 accounts who did not churn, were incorrectly classified. This looks like a pretty low error rate! Looking further though, of the 176 accounts who actually churned, 175 of them (or almost all of them) were not correctly classified by our simple logistic model. So while the overall error rate is quite low, the error rate for accounts who churned is pretty high. 
+
+{% include advertisements.html %}
 
 ***
 In this example, we touched on a brief introduction to classification problems with a simple logistic regression model. We created a simple prediction approach to illustrate a classifier. Finally, we assess the model accuracy using the confusion matrix (further terms that assess performance of a classifier such as sensitivity and specificity were purposely not discussed.)

@@ -8,7 +8,7 @@ permalink: /blog/2015/03/23/Resampling-Validation-Set-Approach-Example
 ---
 
 
-
+{% include advertisements.html %}
 
 **Resampling** is a technique that allows us to repeatedly draw samples from a set of observations and to refit a model on each sample in order to obtain additional information. Resampling can be useful to estimate the variability of the model fit and to estimate the error rate of the model when applied in new previously unseen data. Resampling can also help in selecting a good level of model flexibility and can also be used to compare the performance (and error rates) of different predictive models.
 
@@ -18,7 +18,7 @@ There are many resampling techniques available. Some of the most popular ones in
 
 
 
-
+{% include advertisements.html %}
 
 
 In this example we’ll focus on one simple technique which will give us the basis for other cross-validation techniques in the future. We’re going to be working with the Validation Set Approach
@@ -81,7 +81,7 @@ If you recall from out previous examples, we’ve been focused on creating both 
 But for any model to have a strong predictive power, we must measure its error rate on data that was not used to build them. When we derive models from a dataset, these models estimate their coefficients by minimizing the errors found exclusively on those data points alone.
 
 
-
+{% include advertisements.html %}
 
 
 If we go on to apply these same models on sets of completely new and previously unseen data points, the model generated may end up yielding large error rates simply because the patterns found in that original dataset may not be picked up in the new dataset.
@@ -105,6 +105,7 @@ length(trainRows)
 ```
 
 
+{% include advertisements.html %}
 
 
 Note from the above code that we created a training and a testing dataset. We’ll be using the training dataset to build our predictive model and then applying it on the testing dataset to assess the error rate. Since our target variable (income from the Prestige dataset) is of a continuous nature, we’ll continue to apply linear regression models for now. Consequently, our error rate will be given by a continuous variable error measure such as the **Mean Squared Error** or the **Root Mean Squared Error**.
@@ -122,6 +123,7 @@ plot(newdata[,c(1:4)], pch=16, col="blue", main="Matrix Scatterplot of Income, E
 
 
 
+{% include advertisements.html %}
 
 
 Remember from our previous examples, we decided to manually exclude education from our multiple regression analysis as it was overfitting the data (note from the plot above how similar education’s pattern is relative to prestige’s pattern) and was not adding a significant p-value when prestige was also present in the data. So we went on to generate a few models containing these two predictors only.
@@ -169,6 +171,7 @@ plot(mod1, pch=16)
 
 
 
+{% include advertisements.html %}
 
 
 We fit a linear model using lm function. Observe we subset our data for the model to learn only from the training set. The resulting model shows significant p-values for the predictors and the model overall. Both our F-statistic our Adjusted R-squared are not great. Our Residual Standard Error is relatively high. The residual plots also highlight the present of some outliers.
@@ -3146,7 +3149,7 @@ sqrt(mean((newdata$income-predict(mod1, newdata))[-trainRows]^2))
 ```
 
 
-
+{% include advertisements.html %}
 
 
 Note from the above code that we use the predict function to apply the model onto the testing set. The results calculate the Root Mean Squared Error (RMSE). The Root Mean Squared Error is simply the square root of the average squared errors found between the actual data point and the model fitted values. Taking the square root allows the error to have the same units as the quantity being estimated in the Y axis which yields a more easily interpretable result. The Root Mean Squared Error measure tends to be influenced by variances due to outliers (which is our case here since we got a RMSE of **$2,805**). RMSE is most useful when large errors are not desired. We could have used another measure such as **Mean Absolute Error** which measures the average value of the errors between the prediction and the actual data giving similar weight to all error values.
@@ -3198,6 +3201,10 @@ The histogram above highlights (the vertical red line) the average RMSE across 1
 These results ultimately show us how the linear model fit is not appropriate in this case. It also shows that despite the fact the validation set approach is simple to implement, it can be highly variable depending on which observations are part of either the training or the testing datasets.
 
 From here we could try to include a quadratic term on the predictors and a transformation for the target variable income - as we did in previous examples - to see how better the model would fit the data. But for brevity sake, we’ll leave it as is for now.
+
+
+{% include advertisements.html %}
+
 
 ***
 

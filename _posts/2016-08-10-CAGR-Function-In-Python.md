@@ -8,13 +8,13 @@ permalink: /blog/2016/08/10/CAGR-Function-In-Python
 ---
 
 
-
+{% include advertisements.html %}
 
 
 Compound Annual Growth Rates, also known as GAGR, is a popular metric in the financial and business worlds. CAGR measures the mean growth rates of money or units / quantities of something over the years. In finance, it is widely used to calculate investment returns over a period of time (more than one year longer). But while the concepts is mainly used in finance and investment settings, CAGR can also be used to calculate growth related to sales quantities, website user/visitors, etc. Ultimately, it can be a great calculation to understand growth rates of things over a long period of time.
 
 
-
+{% include advertisements.html %}
 
 
 The formula for CAGR is defined as:
@@ -34,7 +34,7 @@ From the formula above you can see that to compute CAGR, you need three paramete
 Note in the formula above that it contains an exponential term. This term helps offset any volatility over the period analysed and it assumes the values or quantities are compounded over the period of time. In essence, CAGR is a metric that describes the growth rate of a value or unit over a period of time if it had grown at a steady rate.
 
 
-
+{% include advertisements.html %}
 
 
 For example, let's imagine you invested $\$1,000 of your money in a bunch of shares 6 years ago. And let's suppose you did not invest again in those same shares since. Today (or six years later), the value of that investment is worth $1,980.
@@ -59,7 +59,7 @@ That is, 12% is the rate of growth that would take you to the ending value, from
 Additionally, you could say that 12% growth every year is not a bad return afterall. It would be wise to compare this growth rate with something else (which is one of the powers of CAGR, that is the ability to make comparison of growth rates for different businesses or investments within the same industry, for example). We're not going to focus on that in this article (but if you want to do so think along the lines of [Opportunity Cost](https://en.wikipedia.org/wiki/Opportunity_cost)).
 
 
-
+{% include advertisements.html %}
 
 
 Now, in python we could create a custom-made function to calculate CAGR. Because if you think about it, the way we firstly structured the syntax above, it required you to pass the values rather manually and we also constructed the formula from the scratch which you'd have to do it again and again everytime you wanted to calculate CAGR for other values. This is far from ideal.
@@ -90,5 +90,8 @@ print ('Your investment had a CAGR of {:.2%} '.format(CAGR(first, last, periods)
 
 
 The function above provides us with the same result as above. But if I were to repeat the process with a new set of numbers, I could re-run the code above and input different values and I would, consequently, end up with CAGR for those new numbers. Try it out for yourself!
+
+
+{% include advertisements.html %}
 
 Today we discussed a very quick example using python functions to calculate growth rates using CAGR.  
