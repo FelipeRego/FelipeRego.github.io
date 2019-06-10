@@ -9,6 +9,7 @@ categories: [Tutorial, R, Statistics]
 ---
 
 
+{% include advertisements.html %}
 
 In our previous study example, we looked at the Simple Linear Regression model. We loaded the **Prestige** dataset and used *income* as our response variable and *education* as the predictor. We generated three models regressing Income onto Education (with some transformations applied) and had strong indications that the linear model was not the most appropriate for the dataset.
 
@@ -86,6 +87,7 @@ If you recall from our previous example, the Prestige dataset is a data frame wi
 For our multiple linear regression example, we'll use more than one predictor. Our response variable will continue to be *Income* but now we will include *women*, *prestige* and *education* as our list of predictor variables. Remember that Education refers to the average number of years of education that exists in each profession. The women variable refers to the percentage of women in the profession and the prestige variable refers to a prestige score for each occupation (given by a metric called Pineo-Porter), from a social survey conducted in the mid-1960s.
 
 
+{% include advertisements.html %}
 
 
 
@@ -126,6 +128,10 @@ Another interesting example is the relationship between income and percentage of
 Also from the matrix plot, note how prestige seems to have a similar pattern relative to education when plotted against income (fourth column left to right second row top to bottom graph).
 
 To keep within the objectives of this study example, we'll start by fitting a linear regression on this dataset and see how well it models the observed data. We'll add all other predictors and give each of them a separate slope coefficient. We want to estimate the relationship and fit a *plane* (note that in a multi-dimensional setting, with two or more predictors and one response, the least squares regression line becomes a plane) that explains this relationship.
+
+
+{% include advertisements.html %}
+
 
 For our multiple linear regression example, we want to solve the following equation:
 
@@ -208,7 +214,7 @@ The result of the model is shown above.
 Similar to our previous simple linear regression example, note we created a centered version of all predictor variables each ending with a **.c** in their names. These new variables were centered on their mean. This transformation was applied on each variable so we could have a meaningful interpretation of the intercept estimates. Centering allows us to say that the estimated income is **$6,798** when we consider the average number of years of education, the average percent of women and the average prestige from the dataset.
 
 
-
+{% include advertisements.html %}
 
 
 From the model output and the scatterplot we can make some interesting observations:
@@ -239,6 +245,10 @@ corrplot(newdatacor, method = "number")
 
 
 The correlation matrix shown above highlights the situation we encoutered with the model output. Notice that the correlation between education and prestige is very high at **0.85**. This reveals each profession's level of education is strongly aligned to each profession's level of prestige. So in essence, education's high p-value indicates that women and prestige are related to income, but there is no evidence that education is associated with income, at least not when these other two predictors are also considered in the model.
+
+
+{% include advertisements.html %}
+
 
 - The model output can also help answer whether there is a relationship between the response and the predictors used. We can use the value of our F-Statistic to test whether all our coefficients are equal to zero (testing for the null hypothesis which means). The F-Statistic value from our model is **58.89** on **3** and **98** degrees of freedom. So assuming that the number of data points is appropriate and given that the p-values returned are low, we have some evidence that at least one of the predictors is associated with income.
 
@@ -3257,7 +3267,7 @@ You must enable Javascript to view this page properly.</p>
 Note from the 3D graph above (you can interact with the plot by cicking and dragging its surface around to change the viewing angle) how this view more clearly highlights the pattern existent across prestige and women relative to income. Also, this interactive view allows us to more clearly see those three or four outlier points as well as how well our last linear model fit the data.
 
 
-
+{% include advertisements.html %}
 
 
 At this stage we could try a few different transformations on both the predictors and the response variable to see how this would improve the model fit. For now, let’s apply a logarithmic transformation with the *log* function on the income variable (the log function here transforms using the natural log. If base 10 is desired log10 is the function to be used). Also, we could try to square both predictors. Let’s apply these suggested transformations directly into the model function and see what happens with both the model fit and the model accuracy.
@@ -3406,6 +3416,7 @@ In summary, we’ve seen a few different multiple linear regression models appli
 
 
 
+{% include advertisements.html %}
 
 
 ***
