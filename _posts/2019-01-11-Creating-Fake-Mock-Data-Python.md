@@ -7,6 +7,7 @@ image: "/images/fakedata1.jpg"
 permalink: /blog/2019/01/11/Creating-Fake-Mock-Data-Python
 ---
 
+{% include advertisements.html %}
 
 In this post I wanted to share an interesting Python package and some examples I found while helping a client build a prototype. The package generates mock or fake data and is simple to use and works well if you need to quickly generate some dummy or mock data for testing purposes.
 

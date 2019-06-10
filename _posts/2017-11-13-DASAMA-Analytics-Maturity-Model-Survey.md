@@ -7,12 +7,19 @@ image: "/images/dasama2.jpg"
 permalink: /blog/2017/11/13/DASAMA-Analytics-Maturity-Model-Survey
 ---
 
+{% include advertisements.html %}
+
 
 In today's world, data science and analytics have become an important source of competitive advantage. With large amounts of data being generated at an increasing rate, organisations are seeking best-in-class approaches to building, managing and enhancing their analytics and data science capabilities to increase performance and reduce inefficiencies. 
 
 Over the years, I've seen and worked with many organisations with remarkably different levels of maturity when it came to their ability to build and manage successful data science and analytics capabilities.
 
 That's one of the reasons I've been developing a framework to assess an organisation's ability to build and manage a successful data science capability. I call it the **DA**ta **S**cience and **A**nalytics **M**aturity **A**ssessment (DASAMA&trade;) model. 
+
+
+{% include advertisements.html %}
+
+
 
 The DASAMA&trade; model has been developed to help organisations gain visibility on their data science and analytics journey. More specifically, the DASAMA&trade; allows data, technology and analytics leaders as well as analysts and data scientists to gauge their organisation's maturity across important dimensions, providing a framework for organisations to learn where they are in their data science and analytics journey and where they have to concentrate future efforts to take their initiatives to a more mature level.
 
@@ -28,6 +35,10 @@ The DASAMA model is developed with clients through both a survey and an in-depth
 
 - **Action-Oriented Storytelling**: This section gauges an organisation's ability to produce, package and present and consume analytical results that are both compelling and action-oriented. It assesses whether questions that have been posed were clearly answered in an unbiased manner as well as whether it allows the business to infer both quantities and percentages.
 
+
+{% include advertisements.html %}
+
+
 **DASAMA&trade; simplifies and augments analytics strategy**
 
 <span class="image fit"><img src="{{ "/images/dasama3.jpg" | absolute_url }}" alt="" /></span>
@@ -39,6 +50,11 @@ The DASAMA&trade; model is targeted at leaders as well as data, business, techni
 To date, DASAMA&trade; has collected in-depth knowledge from dozens of organisations in Australia across marketing, sales, finance and digital leaders.
 
 Responses collected through DASAMA&trade; are kept confidential and results do not provide information that can identify participating organisations. All data are combined with those of many other respondents and summarized to provide an additional layer of protection and anonymity.
+
+
+
+{% include advertisements.html %}
+
 
 ****
 

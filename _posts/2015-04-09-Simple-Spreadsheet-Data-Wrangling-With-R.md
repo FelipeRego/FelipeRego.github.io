@@ -7,7 +7,7 @@ image: "/images/excelwrangling1.jpg"
 permalink: /blog/2015/04/09/Simple-Spreadsheet-Data-Wrangling-With-R
 ---
 
-
+{% include advertisements.html %}
 
 
 Today we are going to deal with some Microsoft Excel spreadsheet data in R. Excel spreadsheets are used everywhere by a variety of companies and employees from diverse areas with varied skill sets. We often have to deal with sparse and messy excel spreadsheets that contain some useful information we want to preferably extract with some code so we can then plug it in R to  create more robust statistical analysis and visualisation.
@@ -19,6 +19,10 @@ This survey is conducted every two years and designed to provide detailed statis
 For more information on the survey methodology and scope, see:  [Employee Earnings and Hours survey for 2014](http://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/6306.0Explanatory%20Notes1May%202014?OpenDocument) and [Employee Earnings and Hours survey for 2012.](http://www.abs.gov.au/AUSSTATS/abs@.nsf/allprimarymainfeatures/46CA336671A196E4CA257DD400759253?opendocument)
 
 We won't use the full range of data available in the survey and the idea here is not so much t analyse the survey itself but to demonstrate a way we can use R to wrangle data. We'll create a simple example by downloading the survey's results from 2014 and 2012 to have a comparative view. We'll go through some data munging and wrangling with R to set the data in the shape we need. We'll then go on to plug the data into [Tableau](http://public.tableau.com/s/) for some interactive visualisation.
+
+
+{% include advertisements.html %}
+
 
 The first step is to download the data. For this example we'll download [this file for 2014 data](http://www.abs.gov.au/ausstats/subscriber.nsf/log?openagent&63060do012_201405.xls&6306.0&Data%20Cubes&BC612754F1F40239CA257DD4007590FF&0&May%202014&22.01.2015&Latest) and [this file for 2012 data.](http://www.abs.gov.au/ausstats/subscriber.nsf/log?openagent&63060do008_201205.xls&6306.0&Data%20Cubes&CFDD56EAA013C56FCA257AFB000E41A9&0&May%202012&23.01.2013&Latest)
 
@@ -54,6 +58,11 @@ file2014[is.na(file2014)] = 0
 ```
 
 Note we call one file at a time. With *XLConnect*  we can ask for a specific sheet and the region (or range) in the worksheet we want the information from. In our code above, we will only bring data from cell A08 to cell F360. We also call a function to keep only specfic columns (columns 1 and 6 for file 2012 for example) from the results. These are the columns with want to keep in our data frame so by passing *keep* parameter we only retain the columns we'll use and the rest is discarded.
+
+
+{% include advertisements.html %}
+
+
 
 Note also that after we load the files, we rename the column names and also replace NAs with zeros.
 
@@ -110,6 +119,9 @@ write.csv(finalFile, 'WeeklyEarnings2012_2014ByOccupation.csv', row.names=FALSE)
 ```
 
 You can see the product of this data wrangling work in a Tableau interactive dashboard [here.](http://feliperego.github.io/blog/2015/04/09/Employee-Average-Weekly-Earnings-Estimate)
+
+
+{% include advertisements.html %}
 
 
 ***
