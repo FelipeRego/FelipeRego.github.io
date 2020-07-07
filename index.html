@@ -34,6 +34,8 @@ sitemap:
 	<meta name="propeller" content="f485aa4f0d9aed96038a3d31cae53025">
 	<!-- Propellar Ads Site Verification Tag -->
 
+  	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />   
+
 	</head>
 	<body class="is-loading">
 
@@ -151,6 +153,22 @@ sitemap:
 		<!-- Scripts -->
 		{% include scripts-main.html %}
     {% include tracking.html %}
+
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#666666"
+        },
+        "button": {
+          "background": "#d8d8d8",
+          "text": "#000000"
+        }
+      },
+      "position": "bottom-left"
+    });
+    </script>
 
 	</body>
 </html>
