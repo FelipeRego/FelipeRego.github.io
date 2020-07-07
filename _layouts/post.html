@@ -22,6 +22,8 @@
     <!-- Google AdSense AutoAds Start Here-->
     <!-- Google AdSense AutoAds Finish Here-->      
 
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />    
+
 	</head>
 	<body class="is-loading">
 
@@ -130,6 +132,22 @@
 			{% include tracking.html %}
 
       <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a5754f09a4aa453"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#666666"
+        },
+        "button": {
+          "background": "#d8d8d8",
+          "text": "#000000"
+        }
+      },
+      "position": "bottom-left"
+    });
+    </script>
 
 	</body>
 </html>
