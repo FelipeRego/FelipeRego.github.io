@@ -251,6 +251,9 @@ From the model output and the scatterplot we can make some interesting observati
 - Given that the Residual standard error for income is <span>$</span>3483 and the mean income value is  <span>$</span>6798, we can assume that the average percentage error for any given point is more than 51%! Again, a pretty large error rate.
 
 
+<script async data-uid="d4f8348a0d" src="https://thoughtful-builder-4808.ck.page/d4f8348a0d/index.js"></script>
+
+
 {% include advertisements.html %}
 
 

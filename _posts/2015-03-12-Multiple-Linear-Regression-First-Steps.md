@@ -81,6 +81,8 @@ summary(Prestige)
 ```
 
 
+<script async data-uid="d4f8348a0d" src="https://thoughtful-builder-4808.ck.page/d4f8348a0d/index.js"></script>
+
 
 If you recall from our previous example, the Prestige dataset is a data frame with 102 rows and 6 columns. Each row is an observations that relate to an occupation. The columns relate to predictors such as average years of education, percentage of women in the occupation, prestige of the occupation, etc.
 
