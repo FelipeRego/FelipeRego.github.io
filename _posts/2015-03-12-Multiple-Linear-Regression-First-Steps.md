@@ -82,6 +82,9 @@ summary(Prestige)
 
 
 
+<script async data-uid="554bc3cc45" src="https://thoughtful-builder-4808.ck.page/554bc3cc45/index.js"></script>
+
+
 If you recall from our previous example, the Prestige dataset is a data frame with 102 rows and 6 columns. Each row is an observations that relate to an occupation. The columns relate to predictors such as average years of education, percentage of women in the occupation, prestige of the occupation, etc.
 
 For our multiple linear regression example, we'll use more than one predictor. Our response variable will continue to be *Income* but now we will include *women*, *prestige* and *education* as our list of predictor variables. Remember that Education refers to the average number of years of education that exists in each profession. The women variable refers to the percentage of women in the profession and the prestige variable refers to a prestige score for each occupation (given by a metric called Pineo-Porter), from a social survey conducted in the mid-1960s.
