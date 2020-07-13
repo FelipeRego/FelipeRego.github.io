@@ -20,6 +20,10 @@ This example will illustrate the application of a linear regression exercise usi
 
 The dataset we'll used is called **Prestige** and comes from the car package `library(car)`. The **Prestige** dataset is a data frame with 102 rows and 6 columns. Each row is an observation that relates to an occupation. The columns relate to predictors such as average years of education, percentage of women in the occupation, prestige of the occupation, etc.
 
+
+<script async data-uid="554bc3cc45" src="https://thoughtful-builder-4808.ck.page/554bc3cc45/index.js"></script>
+
+
 Let's load the required libraries and inspect the dataset:
 
 
