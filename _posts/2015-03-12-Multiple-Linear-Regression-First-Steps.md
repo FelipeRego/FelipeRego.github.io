@@ -81,8 +81,6 @@ summary(Prestige)
 ```
 
 
-<script async data-uid="d4f8348a0d" src="https://thoughtful-builder-4808.ck.page/d4f8348a0d/index.js"></script>
-
 
 If you recall from our previous example, the Prestige dataset is a data frame with 102 rows and 6 columns. Each row is an observations that relate to an occupation. The columns relate to predictors such as average years of education, percentage of women in the occupation, prestige of the occupation, etc.
 
@@ -142,7 +140,7 @@ $$ Income = B0 + B1 * Education + B2 * Prestige + B3 * Women $$
 The model will estimate the value of the *intercept (B0)* and each predictor's *slope (B1) for education*, *(B2) for prestige* and *(B3) for women*. The *intercept* is the average expected income value for the average value across all predictors. The value for each *slope*  estimate will be the average increase in income associated with a one-unit increase in each predictor value, holding the others constant. We want our model to fit a line or plane across the observed relationship in a way that the line/plane created is as close as possible to all data points.
 
 
-
+<script async data-uid="d4f8348a0d" src="https://thoughtful-builder-4808.ck.page/d4f8348a0d/index.js"></script>
 
 
 Let's start by using R **lm** function. The **lm** function is used to fit linear models. For more details, see: https://stat.ethz.ch/R-manual/R-devel/library/stats/html/lm.html. Here we are using *Least Squares* approach again.
