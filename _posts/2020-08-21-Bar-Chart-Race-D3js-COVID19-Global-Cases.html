@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "A D3.js Bar Chart Race of COVID-19 cases"
+date: 2020-08-21
+excerpt: "This is a bar chart race animation of daily COVID19 cases created using D3.js and Observable."
+image: "/images/covid19_1.jpg"
+permalink: /blog/2020/08/21/Bar-Chart-Race-D3js-COVID19-Global-Cases
+---
+
+
+
+This is a visualisation created using <a href="https://observablehq.com/">Observable</a>. This data visualisation animates a daily cumulative view of COVID-19 cases for the top 15 countries since late January 2020. Color indicates continents. Data was sourced from <a href="https://github.com/CSSEGISandData/COVID-19">Johns Hopkins University.</a>
+
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@feliperego/bar-chart-race-of-covid-19-country-level-daily-cases.js?v=3";
+const inspect = Inspector.into("#observablehq-36eb906a");
+(new Runtime).module(define, name => name === "chart" ? inspect() : undefined);
+</script>
+	<h2>
+	A retrospective overview of the humanitarian crisis unfolding in our world</h2>
+	<h4>Daily Cumulative Cases of COVID-19 for the Top 15 Countries Since Late Jan 2020.</h4>
+<div id="observablehq-36eb906a"></div>
+
+For code and details, see <a href="https://observablehq.com/@feliperego/">My Observable</a>.
