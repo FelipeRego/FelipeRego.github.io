@@ -22,6 +22,8 @@ The video below illustrates how it works once the script has been implemented:
 <p> </p>
 
 
+{% include advertisements.html %}
+
 
 And below is the original script which was sourced from the following github repository [link:](https://github.com/nuket/google-sheets-geocoding-macro/blob/master/Code.gs)
 

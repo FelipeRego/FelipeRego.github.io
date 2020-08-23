@@ -10,6 +10,8 @@ permalink: /blog/2018/10/22/Video-Interview-Customer-Success-Data-Science-Analyt
 
 In this video, I interview Mike Sager, Vice-President of Customer Success at SiteMinder. Mike share his views on the role data science and analytics is playing in powering Customer Success at SiteMinder and how he sees the use of analytics evolving in the organisation.
 
+{% include advertisements.html %}
+
 As a leader in a growing start-up, Mike has seen a fundamental change with the adoption of advanced analytics in the business. He suggests leaders to think about data and how it connects throughout the organisation from early on and concludes encouraging leaders to invest in a similar data science capability.
 
 
@@ -17,3 +19,4 @@ As a leader in a growing start-up, Mike has seen a fundamental change with the a
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//8idpQQB9oFY' frameborder='0' allowfullscreen></iframe></div>
 
 
+{% include advertisements.html %}

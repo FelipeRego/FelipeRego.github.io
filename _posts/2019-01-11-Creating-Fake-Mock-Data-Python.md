@@ -25,6 +25,8 @@ from faker import Faker
 import pandas as pd
 ```
 
+{% include advertisements.html %}
+
 
 Here we initialise Faker generator and create an example of generating a fake data for a random name:
 
@@ -59,6 +61,7 @@ There are many other different types of fake data you can generate by using 'pro
 from faker.providers import internet, geo
 ```
 
+{% include advertisements.html %}
 
 
 You can generate fake mock data on latitude and longitude, for example:
@@ -139,6 +142,7 @@ df2 = pd.DataFrame(df2, columns=faker.profile().keys())
 df2
 ```
 
+{% include advertisements.html %}
 
 
 There are many other options you can use to generate other fake data and also to tweak how some of the properties are generated. Again, the [docs](https://faker.readthedocs.io/en/stable/index.html) are very helpful indeed!
