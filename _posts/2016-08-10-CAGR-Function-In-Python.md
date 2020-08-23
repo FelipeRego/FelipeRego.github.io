@@ -83,6 +83,8 @@ def CAGR(first, last, periods):
 print ('Your investment had a CAGR of {:.2%} '.format(CAGR(first, last, periods)))
 ```
 
+{% include advertisements.html %}
+
     What is the value / quantity you started with: 1000.0
     What is the value / quantity you ended up with: 1980
     How many years have passed from beginning to the end of your series: 6.0

@@ -72,6 +72,7 @@ summary(newdata)
 ```
 
 
+{% include advertisements.html %}
 
 
 The Prestige dataset is a data frame with 102 rows and 6 columns. Each row is an observation that relate to an occupation. The columns relate to predictors such as average years of education, percentage of women in the occupation, prestige of the occupation, etc. Note also that we centered and scaled our data frame and renamed it to **newdata**.
