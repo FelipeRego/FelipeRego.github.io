@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Felipe Rego | Data Science | Advanced Analytics | Insights | Strategy | feliperego.com.au
-description: Felipe is a leading advanced analytics and data science partner, helping teams build, manage and enhance their data science and visualisation solutions in a strategically-aligned, commercially-oriented and customer-centred way.
+title: Felipe Rego | Data Science | Advanced Analytics | Data Visualisation | Insights | Strategy | feliperego.com.au
+description: Felipe is a leading advanced analytics and data science partner, helping teams build, manage and enhance their data science, analytics and data visualisation solutions in a strategically-aligned, commercially-oriented and customer-centred way.
 sitemap:
     priority: 0.7
     lastmod: 2017-11-02
@@ -20,7 +20,7 @@ sitemap:
 <span class="image left"><img src="{{ "/images/datavisservice1.jpg" | absolute_url }}" alt="" /></span>It’s no easy feat to make sense of vast amounts of data in a way that results in compelling and actionable storytelling. Unfortunately it’s still very common for organisations of all sizes to rely on old, inappropriate technologies to generate insights that are suboptimal at best. Using the latest techniques and platforms, Felipe helps organisations unclutter their data assets while providing them with scalable, automated, interactive and actionable data visualisation solutions. As a result, your organisation can enjoy greater transparency and seamless performance monitoring. For more, see <a href="https://feliperego.github.io/cases/">Case Studies.</a>
 
 <h3>Analytical Training &amp; Corporate Workshops</h3>
-<span class="image right"><img src="{{ "/images/training1.jpg" | absolute_url }}" alt="" /></span>The optimal use of data is now a major competitive advantage in business. Because of this many organisations and individuals have identified the need to upskill some of their talent if they are going to harness this power effectively. Felipe partners with both educational institutions and corporate organisations to help disseminate practical, actionable and easy-to-understand data science, predictive analytics and data visualisation techniques to students and staff. After working with Felipe, organisations can benefit from a more engaged workforce and individuals feel more prepared to step up to their next challenge. For more, see <a href="https://feliperego.github.io/cases/">Case Studies.</a>
+<span class="image right"><img src="{{ "/images/training1.jpg" | absolute_url }}" alt="" /></span>The optimal use of data is now a major competitive advantage in business. Because of this many organisations and individuals have identified the need to upskill some of their talent if they are going to harness this power effectively. Felipe partners with both educational institutions and corporate organisations to help disseminate practical, actionable and easy-to-understand data science, predictive analytics and data visualisation techniques to students and staff. After working with Felipe, organisations can benefit from a more engaged workforce and individuals feel more prepared to step up to their next challenge. For more, see <a href="https://feliperego.github.io/training/">Training Programs.</a>
 
 <hr>
 <header class="major">

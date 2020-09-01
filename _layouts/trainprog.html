@@ -17,13 +17,11 @@
      });
    </script>
    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    
     {% include head.html %}
 
-    <!-- Google AdSense AutoAds Start Here-->
-    <!-- Google AdSense AutoAds Finish Here-->      
-
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />    
-
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />   
+     
 	</head>
 	<body class="is-loading">
 
@@ -44,7 +42,7 @@
               <li><a href="https://linkedin.com/in/{{site.linkedin}}" class="icon fa-linkedin" rel="nofollow"><span class="label">Linkedin</span></a></li>
               <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
             <!--  <li><a href="https://plus.google.com/108474626767707170559" class="icon fa-google" rel="nofollow"><span class="label">Google+</span></a></li>
-                  <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li> -->
+              <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li> -->
               <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
             <!--  <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li> -->
 						</ul>
@@ -52,7 +50,7 @@
 
 				<!-- Main -->
 				<div id="main">
-          <section class="post">
+          <section class="trainprog">
     				<header class="major">
       				<span class="date">{{page.date | date_to_string}}</span>
       				<h1>{{page.title}}</h1>
@@ -60,23 +58,7 @@
               {% include read_time.html %}
       			</header>
       			<div class="image main"><img src="{{page.image}}" alt=""></div>
-
             <p>{{content}}</p>
-
-            {% include advertisements.html %}
-
-            <br>
-
-            <h2>You May Also Like...</h2>
-            <div class="box">
-              {% assign count = 1 %}
-              {% for post in site.posts %}
-              {% if post.url != page.url and count < 6 %}
-              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-              {% assign count = count | plus: 1 %}
-              {% endif %}
-              {% endfor %}
-            </div>
 
       		</section>
 
@@ -133,6 +115,7 @@
 			{% include tracking.html %}
 
       <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a5754f09a4aa453"></script>
+
 
     <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
     <script>

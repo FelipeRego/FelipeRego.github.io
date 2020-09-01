@@ -72,19 +72,19 @@
 						</p>
 
           </article> -->
-					<!-- Cases -->
-					<section class="cases">
-						{% for case in site.cases %}
+					<!-- Training -->
+					<section class="training">
+						{% for trainprog in site.training %}
 						{% assign mod3 = forloop.index | modulo: 3 %}
 							<article>
 								<header>
-									<span class="date">{{ case.date | date_to_string }}</span>
-									<h2><a href="{{ case.url | absolute_url }}">{{ case.title }}</h2>
+									<span class="date">{{ trainprog.date | date_to_string }}</span>
+									<h2><a href="{{ trainprog.url | absolute_url }}">{{ trainprog.title }}</h2>
 								</header>
-								<a href="{{ case.url | absolute_url }}" class="image fit"><img src="{{ case.image | absolute_url }}" alt="" /></a>
-								<p>{{ case.excerpt }}</p>
+								<a href="{{ trainprog.url | absolute_url }}" class="image fit"><img src="{{ trainprog.image | absolute_url }}" alt="" /></a>
+								<p>{{ trainprog.excerpt }}</p>
 								<ul class="actions">
-									<li><a href="{{ case.url | absolute_url }}" class="button">Read More</a></li>
+									<li><a href="{{ trainprog.url | absolute_url }}" class="button">Read More</a></li>
 								</ul>
 							</article>
 							{% if mod3 == 0 %}

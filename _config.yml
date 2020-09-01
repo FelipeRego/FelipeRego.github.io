@@ -1,7 +1,7 @@
 # Site
 title:              Felipe Rego
-bio:                'Helping teams build, manage and enhance their data science capabilities'
-description:        "Helping teams build, manage and enhance their data science capabilities"
+bio:                'Helping teams build, manage and enhance their data science, analytics and data visualisation capabilities'
+description:        "Helping teams build, manage and enhance their data science, analytics and data visualisation capabilities"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -20,6 +20,10 @@ collections:
     output: true
     permalink: /:collection/:path
     layout: cases
+  training:
+    output: true
+    permalink: /:collection/:path
+    layout: training
 
 
 # Jekyll
