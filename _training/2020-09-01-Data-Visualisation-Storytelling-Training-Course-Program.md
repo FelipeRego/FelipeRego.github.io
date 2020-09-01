@@ -1,6 +1,6 @@
 ---
 layout: trainprog
-title:  "Data Visualisation & Storytelling Training Program"
+title:  "Dataviz & Story telling Training Program"
 date: 2020-09-01
 excerpt: "Learn how to build, manage and enhance your data visualisation and storytelling solutions."
 image: "/images/datavisthinkific.png"
@@ -11,25 +11,22 @@ permalink: /training/2020/09/01/Data-Visualisation-Storytelling-Training-Course-
 <h3>Training Course & Workshop Program | Data Visualisation and Storytelling</h3>
 <!--- <span class="image left"><img src="{{ "/images/theworkslogo2.png" | absolute_url }}" alt="" /></span> --->
 
-<h2>Learn practical ideas and techniques to revamp your data visualisation and storytelling knowledge.</h2>
+<h2>Learn practical ideas and techniques to revamp your data visualisation and storytelling knowledge</h2>
 
 
 <h3>Overview</h3>
-In this 2-day live and online training program, Felipe transforms particpants with fresh ideas about what matters in data visualiation and storytelling. The sessions provide practical techniques and strategies to create compelling, relevant and actionable data visualisation and storytelling solutions. The program is aimed at professionals at all levels who want to radically improve the way they think and execute on data-driven stories.
+In this live and online training program, Felipe provides practical techniques and strategies to create compelling, relevant and actionable data visualisation and storytelling solutions. 
 
 <h3>Learning Objectives</h3>
 <strong>Become the go-to person in your team for dataviz know-how and best-practices</strong>
 
-Participants are exposed to relevant and practical concepts in data, design, narratives and technology to build compelling and action-oriented storytelling and data visualisation solutions. Participants will be able to:
+Participants are exposed to relevant and practical concepts in data, design, narratives and technology to build compelling and action-oriented storytelling and data visualisation solutions:
 
-- Learn to analyse and critique data visualisation work
+- Learn to analyse and critique data visualisation
 - Discover how to structure, manage and deliver dataviz and storytelling projects
 - Master the art and science of simplifying information to understand the story of your data
-- Discover how to build the right data visualisation form and create narrative
 - Explore secrets of design fundamentals for data visualisation and communication
 - Develop a basic understanding of the latest tools and software for visualising data
-- Learn how to collect, manipulate and visualise data using the latest tools and techniques
-- Learn to analyse and critique data visualisation
 - Develop fundamental skills in data science and analytics
 
 
@@ -42,9 +39,6 @@ The program is  delivered live and online taking an applied perspective to creat
 Throughout the sessions, participants engage in a variety of activities and are encouraged to think both individually and in group on all aspects of a project. Activities performed are driven by frameworks and learnings discussed during the sessions. Practical exercises are subsequently applied via various methods (discussion, role-play, visual sketches, narrative development, etc) utilising common stationery resources (texters, sharpies, colourful pens, blank papers, post-it notes, etc.). 
 
 The delivery rhythm throughout the session is highly approachable, encouraging of participation and inviting to all backgrounds. It’s purposely built for an active and relevant learning experience. 
-
- Participants apply their learnings utilising the resources and references provided with real-life case studies and benchmarks and are also encouraged to think / reference their own specific on-the-job work and projects (where appropriate and where privacy and confidentially have been assessed and considered).
-
 
 
 <h3>What Participants Say</h3>
