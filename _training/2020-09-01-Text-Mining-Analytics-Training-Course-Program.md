@@ -1,6 +1,6 @@
 ---
 layout: trainprog
-title:  "Text Mining & Analytics Training Program"
+title:  "Foundations of Text Mining & Analytics"
 date: 2020-09-01
 excerpt: "This program will help you learn fundamental ideas and gain practical experience with text data analytics."
 image: "/images/textminingthinkific.png"

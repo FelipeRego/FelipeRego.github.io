@@ -1,21 +1,21 @@
 ---
 layout: trainprog
-title:  "Data Visualisation & Storytelling"
+title:  "Intro to Data Science & Analytics"
 date: 2020-09-01
-excerpt: "Learn how to build, manage and enhance your data visualisation and storytelling solutions."
-image: "/images/datavisthinkific.png"
-permalink: /training/2020/09/01/Data-Visualisation-Storytelling-Training-Course-Program
+excerpt: "Learn concepts and gain practical hands-on knowledge in data science and analytics."
+image: "/images/introdatascience.png"
+permalink: /training/2020/09/01/Introduction-Data-Science-Analytics-Training-Course-Program
 ---
 
 
-<h3>Training Course & Workshop Program | Data Visualisation and Storytelling</h3>
+<h3>Training Course & Workshop Program | Introduction to Data Science & Analytics</h3>
 <!--- <span class="image left"><img src="{{ "/images/xxx.png" | absolute_url }}" alt="" /></span> --->
 
-<h2>Learn practical ideas and techniques to revamp your data visualisation and storytelling knowledge</h2>
+<h2>Gain practical knowledge and hands-on experience data science and analytics in an easy-to-understand way.</h2>
 
 
 <h3>Overview</h3>
-In this live and online training program, Felipe provides practical techniques and strategies to create compelling, relevant and actionable data visualisation and storytelling solutions. 
+In this live and online training program, Felipe provides practical yet easy-to-understand-and-to-follow-along techniques and strategies to build and develop data science and analytics solutions. No prior knowledge required!
 
 <h3>Learning Objectives</h3>
 <strong>Become the go-to person in your team for dataviz know-how and best-practices</strong>
