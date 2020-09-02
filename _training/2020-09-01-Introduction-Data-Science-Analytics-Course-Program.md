@@ -11,32 +11,34 @@ permalink: /training/2020/09/01/Introduction-Data-Science-Analytics-Training-Cou
 <h3>Training Course & Workshop Program | Introduction to Data Science & Analytics</h3>
 <!--- <span class="image left"><img src="{{ "/images/xxx.png" | absolute_url }}" alt="" /></span> --->
 
-<h2>Gain practical knowledge and hands-on experience data science and analytics in an easy-to-understand way.</h2>
+<h2>Gain practical knowledge and hands-on experience in data science and analytics in a safe and easy-to-follow environment.</h2>
 
 
 <h3>Overview</h3>
-In this live and online training program, Felipe provides practical yet easy-to-understand-and-to-follow-along techniques and strategies to build and develop data science and analytics solutions. No prior knowledge required!
+In this live and online training program, Felipe provides practical yet easy-to-understand-and-to-follow-along techniques and strategies to build, manage and develop data science and analytics solutions and projects. No prior knowledge required!
 
 <h3>Learning Objectives</h3>
-<strong>Become the go-to person in your team for dataviz know-how and best-practices</strong>
+<strong>Contribute to your team's analytics journey by gaining basic and applicable concepts</strong>
 
-Participants are exposed to relevant and practical concepts in data, design, narratives and technology to build compelling and action-oriented storytelling and data visualisation solutions:
+- Develop basic yet practical working knowledge in data science, analytics and basic machine learning
+- Master key concepts and techniques to build basic machine learning models using large datasets
+- Discover how to structure your dataset in order to build advanced analytics solutions
+- Explore the latest use cases and applications of machine learning 
+- Develop a basic understanding of a programming languages for data science
+- Learn how experts collect, wrangle and manipulate data for effective data science
+- Learn to build and manage a successful data science and analytics capability in your organisation
+- Develop technical and soft skills required to manage a team of data scientists
 
-- Learn to analyse and critique data visualisation
-- Discover how to structure, manage and deliver dataviz and storytelling projects
-- Master the art and science of simplifying information to understand the story of your data
-- Explore secrets of design fundamentals for data visualisation and communication
-- Develop a basic understanding of the latest tools and software for visualising data
-- Develop fundamental skills in data science and analytics
 
 
 <h3>About the program</h3>
 <strong>Engaging, interactive and practical sessions</strong>
 
+Harness the raw power of data to make better data-driven decisions. This program introduces the latest theories, tools, techniques and strategies to apply and manage data science and machine learning capabilities at an individual, team or organisational level. It’s aimed at professionals who want to start working in analytics, professionals who want to enhance their skills in analytics or leaders who need to successfully manage a data science capability in their organisation. 
 
 The program is  delivered live and online taking an applied perspective to create an exclusive, highly engaging and practical experience. Participants of this program are not required to have any previous knowledge. 
 
-Throughout the sessions, participants engage in a variety of activities and are encouraged to think both individually and in group on all aspects of a project. Activities performed are driven by frameworks and learnings discussed during the sessions. Practical exercises are subsequently applied via various methods (discussion, role-play, visual sketches, narrative development, etc) utilising common stationery resources (texters, sharpies, colourful pens, blank papers, post-it notes, etc.). 
+Throughout the sessions, participants engage in a variety of activities and are encouraged to think both individually and in group on all aspects of a project. Activities performed are driven by frameworks and learnings discussed during the sessions. Practical exercises are subsequently applied utilising modern commercial and open-source software tools. 
 
 The delivery rhythm throughout the session is highly approachable, encouraging of participation and inviting to all backgrounds. It’s purposely built for an active and relevant learning experience. 
 
@@ -44,14 +46,14 @@ The delivery rhythm throughout the session is highly approachable, encouraging o
 <h3>What Participants Say</h3>
 <strong>Relevant and applicable content that transforms individuals, teams and organisations</strong>
 
-<blockquote>"Felipe has exceptional expertise in Data analytics, Data science, Data visualisation, Machine learning etc An amazing mentor, his coaching style is so professional, very informal and formal at the same time. His technical and non technical skills are too good to describe in words😊 His enthusiasm will help you to learn more and more."</blockquote>
+<blockquote>"I had the pleasure of taking Felipe’s Analytics Workshop. It was a great introduction to Data Analytics and Machine Learning. Felipe customised the content very well to cater to the knowledge level and interests of attendees and made the online delivery arrangement very practical and enjoyable. I would recommend Felipe to anyone interested in learning about Data Analytics."</blockquote>
 
-<blockquote>"Felipe has that rare gift of communicating complex ideas in an engaging way that leaves you rethinking your understanding of the subject. He makes a sustained connection when sharing knowledge and continues to encourage his audience to think."</blockquote>
+<blockquote>"I had the chance to join the workshop “Intro to Data Science and Analytics”. After this formative experience, I can say this course has been a valuable gentle-introduction into this ever-growing subject. If you are eager to go deeper and collect useful and actionable tips, Felipe’s teachings will definitely help you to start hacking this field. Felipe has been an assertive presenter and effectively communicated all the materials, generating a great exchange of thoughts with participants."</blockquote>
 
-<blockquote>"Felipe’s recent data visualisation training was excellent. He has a really good ability to explain complex data visualisation and data science concepts to a large variety of capability and learning levels. Thanks again Felipe."</blockquote>
+<blockquote>"Data Science is one of 21st century digital wonders. Felipe onboards you to the data science with ease and makes you comfortable to start applying data science from the first day. It was a great workshop."</blockquote>
 
 
-<script async data-uid="bb4a260ea9" src="https://thoughtful-builder-4808.ck.page/bb4a260ea9/index.js"></script>
+<script async data-uid="77ba08d63b" src="https://thoughtful-builder-4808.ck.page/77ba08d63b/index.js"></script>
 
 
 

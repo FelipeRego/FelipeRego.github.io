@@ -45,7 +45,7 @@ The delivery rhythm throughout the session is highly approachable, encouraging o
 
 <blockquote>"Felipe is one of the most experts data scientist teachers I have known, he has an exceptional knowledge in the data science area, the first thing I was impressed was his passion in teaching, specially this kind of topics that are not easy to digest, he can transmit the energy and enthusiasm to his students, his classes were engaging and I learnt a lot. I was happy to take the data analysis course with him, and I really recommend his services like data scientist, and also as a teacher. Thank you Felipe."</blockquote>
 
-<blockquote>"Felipe is dedicated, passionate and committed to what he does. He can articulate complex concepts in machine learning, data visualisation and analytics with such ease and flair that even a beginner would develop passion for Data at the end of the session. He is hands on and has contributed a lot during our time at Newscorp. I highly recommend Felipe."</blockquote>
+<blockquote>"Felipe is dedicated, passionate and committed to what he does. He can articulate complex concepts in machine learning, data visualisation and analytics with such ease and flair that even a beginner would develop passion for Data at the end of the session. He is hands on and has contributed a lot during our time working together. I highly recommend Felipe."</blockquote>
 
 <blockquote>"Felipe is extraordinary at what he does and always prepared to go above and beyond. Felipe is skilled at breaking down technical concepts into everyday language, making sure that the content connects to individuals. His classes are not only informative but enjoyable. He is a talented leader who is able to motivate and empower others to do their absolute best."</blockquote>
 
