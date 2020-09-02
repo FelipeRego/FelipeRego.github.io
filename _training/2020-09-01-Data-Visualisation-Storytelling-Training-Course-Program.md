@@ -9,7 +9,7 @@ permalink: /training/2020/09/01/Data-Visualisation-Storytelling-Training-Course-
 
 
 <h3>Training Course & Workshop Program | Data Visualisation and Storytelling</h3>
-<!--- <span class="image left"><img src="{{ "/images/theworkslogo2.png" | absolute_url }}" alt="" /></span> --->
+<!--- <span class="image left"><img src="{{ "/images/xxx.png" | absolute_url }}" alt="" /></span> --->
 
 <h2>Learn practical ideas and techniques to revamp your data visualisation and storytelling knowledge</h2>
 
