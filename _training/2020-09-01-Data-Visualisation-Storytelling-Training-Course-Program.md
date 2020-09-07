@@ -36,7 +36,7 @@ Participants are exposed to relevant and practical concepts in data, design, nar
 
 The program is  delivered live and online taking an applied perspective to create an exclusive, highly engaging and practical experience. Participants of this program are not required to have any previous knowledge. 
 
-Throughout the sessions, participants engage in a variety of activities and are encouraged to think both individually and in group on all aspects of a project. Activities performed are driven by frameworks and learnings discussed during the sessions. Practical exercises are subsequently applied via various methods (discussion, role-play, visual sketches, narrative development, etc) utilising common stationery resources (texters, sharpies, colourful pens, blank papers, post-it notes, etc.). 
+Throughout the sessions, participants engage in a variety of activities and are encouraged to think both individually and in group on all aspects of a project. Activities performed are driven by frameworks and learnings discussed during the sessions. Practical exercises are subsequently applied via various methods (discussion, role-play, visual sketches, narrative development, etc) utilising common stationery resources (texters, sharpies, colourful pens, blank papers, post-it notes, etc.). No software is required to participate in this program.
 
 The delivery rhythm throughout the session is highly approachable, encouraging of participation and inviting to all backgrounds. It’s purposely built for an active and relevant learning experience. 
 
