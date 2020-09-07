@@ -34,11 +34,15 @@ Participants are exposed to relevant and practical concepts in data, design, nar
 <strong>Engaging, interactive and practical sessions</strong>
 
 
-The program is  delivered live and online taking an applied perspective to create an exclusive, highly engaging and practical experience. Participants of this program are not required to have any previous knowledge. 
+The program is  delivered live and online taking an applied perspective to create an exclusive, highly engaging and practical experience. Participants of this program are not required to have any previous knowledge or access to any specific software program. 
 
-Throughout the sessions, participants engage in a variety of activities and are encouraged to think both individually and in group on all aspects of a project. Activities performed are driven by frameworks and learnings discussed during the sessions. Practical exercises are subsequently applied via various methods (discussion, role-play, visual sketches, narrative development, etc) utilising common stationery resources (texters, sharpies, colourful pens, blank papers, post-it notes, etc.). No software is required to participate in this program.
+Throughout the sessions, participants engage in a variety of activities and are encouraged to think both individually and in group on all aspects of a project. Activities performed are driven by frameworks and learnings discussed during the sessions. Practical exercises are subsequently applied via various methods (discussion, role-play, visual sketches, narrative development, etc) utilising common stationery resources (texters, sharpies, colourful pens, blank papers, post-it notes, etc.). 
 
 The delivery rhythm throughout the session is highly approachable, encouraging of participation and inviting to all backgrounds. It’s purposely built for an active and relevant learning experience. 
+
+<div class="box">
+	<p><strong>Note:</strong> While no specific software is used during this specific program, the content showcases over a dozen of tools available. It provides an overview of each, with detailed pros and cons across popular commercial and open-source tools for data visualisation.</p>
+</div>	
 
 
 <h3>What Participants Say</h3>
@@ -50,6 +54,7 @@ The delivery rhythm throughout the session is highly approachable, encouraging o
 
 <blockquote>"Felipe’s recent data visualisation training was excellent. He has a really good ability to explain complex data visualisation and data science concepts to a large variety of capability and learning levels. Thanks again Felipe."</blockquote>
 
+<h2 style='text-align:center'>VIEW THE COURSE AGENDA AND A FREE PREVIEW!</h2>	
 
 <script async data-uid="bb4a260ea9" src="https://thoughtful-builder-4808.ck.page/bb4a260ea9/index.js"></script>
 
