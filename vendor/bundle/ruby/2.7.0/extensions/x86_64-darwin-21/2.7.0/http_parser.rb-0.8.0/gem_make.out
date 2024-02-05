@@ -1,0 +1,17 @@
+current directory: /Users/feliperego/Documents/GitHub/FelipeRego.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/usr/local/opt/ruby@2.7/bin/ruby -I /usr/local/Cellar/ruby@2.7/2.7.5/lib/ruby/2.7.0 -r ./siteconf20240206-70197-17tppvz.rb extconf.rb
+creating Makefile
+
+current directory: /Users/feliperego/Documents/GitHub/FelipeRego.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= clean
+
+current directory: /Users/feliperego/Documents/GitHub/FelipeRego.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\=
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/feliperego/Documents/GitHub/FelipeRego.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20240206-70197-1qrx8dy

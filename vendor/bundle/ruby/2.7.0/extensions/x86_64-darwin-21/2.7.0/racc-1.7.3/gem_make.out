@@ -1,0 +1,16 @@
+current directory: /Users/feliperego/Documents/GitHub/FelipeRego.github.io/vendor/bundle/ruby/2.7.0/gems/racc-1.7.3/ext/racc/cparse
+/usr/local/opt/ruby@2.7/bin/ruby -I /usr/local/Cellar/ruby@2.7/2.7.5/lib/ruby/2.7.0 -r ./siteconf20240206-70197-1yx0d1v.rb extconf.rb
+creating Makefile
+
+current directory: /Users/feliperego/Documents/GitHub/FelipeRego.github.io/vendor/bundle/ruby/2.7.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= clean
+
+current directory: /Users/feliperego/Documents/GitHub/FelipeRego.github.io/vendor/bundle/ruby/2.7.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\=
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/feliperego/Documents/GitHub/FelipeRego.github.io/vendor/bundle/ruby/2.7.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20240206-70197-k17vqz/racc
