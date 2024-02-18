@@ -46,7 +46,7 @@ sass:
 
 # Social
 analytics-id:       "G-2F79SGXQDB"
-twitter:            FelipeRego
+#twitter:            FelipeRego
 #facebook:           #default
 instagram:          feliperego.com.au
 #github:             #default
@@ -54,7 +54,7 @@ linkedin:           FelipeRego
 
 # personal
 location:           Sydney, AU
-phone:              +61 2 8011 4888
+phone:              +61 (0)410 206 331
 email:              info@feliperego.com.au
 
 # Gems
