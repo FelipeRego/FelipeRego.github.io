@@ -3,7 +3,7 @@ layout: case
 title:  "Become Education"
 date: 2021-10-04
 excerpt: "Maximising Students and Schools Potential to Elevate Career Exploration using PowerBI Dashboards"
-image: "/images/become.png"
+image: "/images/BECOME.png"
 permalink: /cases/2021/06/25/Redsbaby-PowerBI-Dashboard
 ---
 
